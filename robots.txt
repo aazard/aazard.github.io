@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://aazard.github.io/sitemap.xml
