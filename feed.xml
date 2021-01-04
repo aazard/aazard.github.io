@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T03:06:42-05:00</updated>
+    <updated>2021-01-04T10:29:09-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -150,13 +150,23 @@
         <link href="https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/"/>
         <id>https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/</id>
 
-        <updated>2021-01-04T02:34:02-05:00</updated>
+        <updated>2021-01-04T10:29:09-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                 <h2 class="align-center"><span style="text-decoration: underline;"><strong><span style="color: #e67e23; text-decoration: underline;">Cluster Size in NT5 up (Windows 2000+) - Use Best Fit</span></strong></span></h2>
 <h3>Note: <span style="color: #f50505;">Aim For "SMALLEST" Cluster Size</span></h3>
 <p><strong><span style="color: #e67e23;">This will make you "squeeze" the most data in, esp when files are very small</span></strong></p>
+<p class="msg msg--highlight "><em><strong>Microsoft's EFI FAT32 specification<sup id="cite_ref-efi_10-13" class="reference"><a href="https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system#cite_note-efi-10">[10]</a></sup> states that any FAT file system with less than 4085 clusters is FAT12, else any FAT file system with less than 65525 clusters is FAT16, and otherwise it is FAT32. </strong></em></p>
+<h3>FAT-16B - Cluster Size</h3>
+<table class="infobox">
+<tbody>
+<tr>
+<th>Upto_8MB</th>
+<td>128Bytes_<strong>Smallest_Possible</strong></td>
+</tr>
+</tbody>
+</table>
 <h3><strong>DMF 1024 Floppy is 512bytes<br></strong></h3>
 <h3><strong>DMF 2048 Floppy is 1kb</strong></h3>
 <h4>NTFS - Cluster Size in NT5 up (Windows 2000+)<br><span style="color: #f50505;">Not Ideal For USB FLASH rated 256mb or less<br></span><span style="color: #f50505;">Ideal For USB FLASH rated 512mb or more</span></h4>
