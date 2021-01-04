@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T01:55:00-05:00</updated>
+    <updated>2021-01-04T01:56:03-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -84,7 +84,7 @@
         <link href="https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/"/>
         <id>https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/</id>
 
-        <updated>2021-01-04T01:55:00-05:00</updated>
+        <updated>2021-01-04T01:56:03-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -102,16 +102,16 @@
 </div>
 <h3>Folders Information</h3>
 <h4>Created by using <a href="http://www.nirsoft.net/">FoldersReport</a></h4>
-<table style="height: 4551px; width: 1023px;" width="921">
+<table style="height: 4551px; width: 1077px;" width="921">
 <tbody>
 <tr style="height: 134px;">
 <td style="width: 186px; height: 134px;">
 <p><strong>Folder </strong></p>
 </td>
-<td style="width: 138px; height: 134px;">
+<td style="width: 141px; height: 134px;">
 <p><strong>Size_Of_Files </strong></p>
 </td>
-<td style="width: 143px; height: 134px;">
+<td style="width: 144px; height: 134px;">
 <p><strong>Size_On_Disk </strong></p>
 </td>
 <td style="width: 72px; height: 134px;">
@@ -120,7 +120,7 @@
 <td style="width: 96px; height: 134px;">
 <p><strong>Folders </strong></p>
 </td>
-<td style="width: 387px; height: 134px;">
+<td style="width: 437px; height: 134px;">
 <p><strong>Description</strong></p>
 </td>
 </tr>
@@ -128,10 +128,10 @@
 <td style="width: 186px; height: 221px;">
 <p>Main Dir</p>
 </td>
-<td style="width: 138px; height: 221px;">
+<td style="width: 141px; height: 221px;">
 <p> 1,738KB</p>
 </td>
-<td style="width: 143px; height: 221px;">
+<td style="width: 144px; height: 221px;">
 <p> 1,800KB</p>
 </td>
 <td style="width: 72px; height: 221px;">
@@ -140,7 +140,7 @@
 <td style="width: 96px; height: 221px;">
 <p> 23</p>
 </td>
-<td style="width: 387px; height: 221px;">
+<td style="width: 437px; height: 221px;">
 <p>The “unzipped” suite. When packed, it exists as the “100K Ziper” (unzipped) and a single zipped file, containing rest of suite</p>
 </td>
 </tr>
@@ -148,10 +148,10 @@
 <td style="width: 186px; height: 221px;">
 <p>100k_Zipper(v1.21)</p>
 </td>
-<td style="width: 138px; height: 221px;">
+<td style="width: 141px; height: 221px;">
 <p> 71KB</p>
 </td>
-<td style="width: 143px; height: 221px;">
+<td style="width: 144px; height: 221px;">
 <p> 72KB</p>
 </td>
 <td style="width: 72px; height: 221px;">
@@ -160,7 +160,7 @@
 <td style="width: 96px; height: 221px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 221px;">
+<td style="width: 437px; height: 221px;">
 <p>Archiver. Supports zip and zip SFX. Can zip/unzip. *v1.21 and v1.25 are the 2 existing “bug free”, v1.25 has nicer UI/Win98 fixes</p>
 </td>
 </tr>
@@ -168,10 +168,10 @@
 <td style="width: 186px; height: 221px;">
 <p>AntMem v13</p>
 </td>
-<td style="width: 138px; height: 221px;">
+<td style="width: 141px; height: 221px;">
 <p> 0KB</p>
 </td>
-<td style="width: 143px; height: 221px;">
+<td style="width: 144px; height: 221px;">
 <p> 4KB</p>
 </td>
 <td style="width: 72px; height: 221px;">
@@ -180,7 +180,7 @@
 <td style="width: 96px; height: 221px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 221px;">
+<td style="width: 437px; height: 221px;">
 <p>Sub-1kb Visual Basic (VB) memory manager. This version is set to attempt to free 64mb and defrag all memory.</p>
 </td>
 </tr>
@@ -188,10 +188,10 @@
 <td style="width: 186px; height: 221px;">
 <p>Atlantis Nova</p>
 </td>
-<td style="width: 138px; height: 221px;">
+<td style="width: 141px; height: 221px;">
 <p> 389KB</p>
 </td>
-<td style="width: 143px; height: 221px;">
+<td style="width: 144px; height: 221px;">
 <p> 392KB</p>
 </td>
 <td style="width: 72px; height: 221px;">
@@ -200,7 +200,7 @@
 <td style="width: 96px; height: 221px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 221px;">
+<td style="width: 437px; height: 221px;">
 <p>Word Processor. Create rich text documents with images support. Opens doc format, saves as rtf/txt</p>
 </td>
 </tr>
@@ -208,10 +208,10 @@
 <td style="width: 186px; height: 163px;">
 <p>dsdel</p>
 </td>
-<td style="width: 138px; height: 163px;">
+<td style="width: 141px; height: 163px;">
 <p> 7 KB</p>
 </td>
-<td style="width: 143px; height: 163px;">
+<td style="width: 144px; height: 163px;">
 <p> 8KB</p>
 </td>
 <td style="width: 72px; height: 163px;">
@@ -220,7 +220,7 @@
 <td style="width: 96px; height: 163px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 163px;">
+<td style="width: 437px; height: 163px;">
 <p>Secure File Deletion, Supports Multi-file/Folders &amp; “Drag and Drop”</p>
 </td>
 </tr>
@@ -228,10 +228,10 @@
 <td style="width: 186px; height: 134px;">
 <p>Eve</p>
 </td>
-<td style="width: 138px; height: 134px;">
+<td style="width: 141px; height: 134px;">
 <p> 73KB</p>
 </td>
-<td style="width: 143px; height: 134px;">
+<td style="width: 144px; height: 134px;">
 <p> 80KB</p>
 </td>
 <td style="width: 72px; height: 134px;">
@@ -240,7 +240,7 @@
 <td style="width: 96px; height: 134px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 134px;">
+<td style="width: 437px; height: 134px;">
 <p>A vector image diagram and drawing application/ini.</p>
 </td>
 </tr>
@@ -248,10 +248,10 @@
 <td style="width: 186px; height: 221px;">
 <p>Free PDF-Editor</p>
 </td>
-<td style="width: 138px; height: 221px;">
+<td style="width: 141px; height: 221px;">
 <p> 328KB</p>
 </td>
-<td style="width: 143px; height: 221px;">
+<td style="width: 144px; height: 221px;">
 <p> 328KB</p>
 </td>
 <td style="width: 72px; height: 221px;">
@@ -260,7 +260,7 @@
 <td style="width: 96px; height: 221px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 221px;">
+<td style="width: 437px; height: 221px;">
 <p>Create “rich text”, with images PDF documents, combined with Free PDF to Word, you can edit a existing PDF</p>
 </td>
 </tr>
@@ -268,10 +268,10 @@
 <td style="width: 186px; height: 221px;">
 <p>Free PDF2Word</p>
 </td>
-<td style="width: 138px; height: 221px;">
+<td style="width: 141px; height: 221px;">
 <p> 313KB</p>
 </td>
-<td style="width: 143px; height: 221px;">
+<td style="width: 144px; height: 221px;">
 <p> 324KB</p>
 </td>
 <td style="width: 72px; height: 221px;">
@@ -280,7 +280,7 @@
 <td style="width: 96px; height: 221px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 221px;">
+<td style="width: 437px; height: 221px;">
 <p>Converts PDF files to rtf or doc. Ideal formatting, with Free PDF Editor, you can edit a existing PDF. All files</p>
 </td>
 </tr>
@@ -288,10 +288,10 @@
 <td style="width: 186px; height: 250px;">
 <p>mailpeek</p>
 </td>
-<td style="width: 138px; height: 250px;">
+<td style="width: 141px; height: 250px;">
 <p> 79KB</p>
 </td>
-<td style="width: 143px; height: 250px;">
+<td style="width: 144px; height: 250px;">
 <p> 88KB</p>
 </td>
 <td style="width: 72px; height: 250px;">
@@ -300,7 +300,7 @@
 <td style="width: 96px; height: 250px;">
 <p> 3</p>
 </td>
-<td style="width: 387px; height: 250px;">
+<td style="width: 437px; height: 250px;">
 <p>MailPeek Email Client (no ssl support) view/send with attachments. Has address book and alerts, exe/ini’s/alert wav files</p>
 </td>
 </tr>
@@ -308,10 +308,10 @@
 <td style="width: 186px; height: 221px;">
 <p>..\mailbox1</p>
 </td>
-<td style="width: 138px; height: 221px;">
+<td style="width: 141px; height: 221px;">
 <p> 0KB</p>
 </td>
-<td style="width: 143px; height: 221px;">
+<td style="width: 144px; height: 221px;">
 <p> 0KB</p>
 </td>
 <td style="width: 72px; height: 221px;">
@@ -320,7 +320,7 @@
 <td style="width: 96px; height: 221px;">
 <p> 2</p>
 </td>
-<td style="width: 387px; height: 221px;">
+<td style="width: 437px; height: 221px;">
 <p>MailPeek Email Client (no ssl support) view/send with attachments. Has address book and alerts. Inbox folder</p>
 </td>
 </tr>
@@ -328,10 +328,10 @@
 <td style="width: 186px; height: 250px;">
 <p>..\attach</p>
 </td>
-<td style="width: 138px; height: 250px;">
+<td style="width: 141px; height: 250px;">
 <p> 0KB</p>
 </td>
-<td style="width: 143px; height: 250px;">
+<td style="width: 144px; height: 250px;">
 <p> 0KB</p>
 </td>
 <td style="width: 72px; height: 250px;">
@@ -340,7 +340,7 @@
 <td style="width: 96px; height: 250px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 250px;">
+<td style="width: 437px; height: 250px;">
 <p>MailPeek Email Client (no ssl support) view/send with attachments. Has address book and alerts. Sent attachments folder</p>
 </td>
 </tr>
@@ -348,10 +348,10 @@
 <td style="width: 186px; height: 221px;">
 <p>..\sent</p>
 </td>
-<td style="width: 138px; height: 221px;">
+<td style="width: 141px; height: 221px;">
 <p> 0KB</p>
 </td>
-<td style="width: 143px; height: 221px;">
+<td style="width: 144px; height: 221px;">
 <p> 0KB</p>
 </td>
 <td style="width: 72px; height: 221px;">
@@ -360,7 +360,7 @@
 <td style="width: 96px; height: 221px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 221px;">
+<td style="width: 437px; height: 221px;">
 <p>MailPeek Email Client (no ssl support) view/send with attachments. Has address book and alerts. Sent mail folder</p>
 </td>
 </tr>
@@ -368,10 +368,10 @@
 <td style="width: 186px; height: 164px;">
 <p>mempad</p>
 </td>
-<td style="width: 138px; height: 164px;">
+<td style="width: 141px; height: 164px;">
 <p> 80KB</p>
 </td>
-<td style="width: 143px; height: 164px;">
+<td style="width: 144px; height: 164px;">
 <p> 84KB</p>
 </td>
 <td style="width: 72px; height: 164px;">
@@ -380,7 +380,7 @@
 <td style="width: 96px; height: 164px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 164px;">
+<td style="width: 437px; height: 164px;">
 <p>Plain text outliner, supports url, external/internal links and more</p>
 </td>
 </tr>
@@ -388,10 +388,10 @@
 <td style="width: 186px; height: 135px;">
 <p>mereo-1.9.4-bin</p>
 </td>
-<td style="width: 138px; height: 135px;">
+<td style="width: 141px; height: 135px;">
 <p> 33KB</p>
 </td>
-<td style="width: 143px; height: 135px;">
+<td style="width: 144px; height: 135px;">
 <p> 36KB</p>
 </td>
 <td style="width: 72px; height: 135px;">
@@ -400,7 +400,7 @@
 <td style="width: 96px; height: 135px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 135px;">
+<td style="width: 437px; height: 135px;">
 <p>Easy and Secure. A HyperText Transfer Protocol (HTTP) server</p>
 </td>
 </tr>
@@ -408,10 +408,10 @@
 <td style="width: 186px; height: 164px;">
 <p>passpack</p>
 </td>
-<td style="width: 138px; height: 164px;">
+<td style="width: 141px; height: 164px;">
 <p> 14KB</p>
 </td>
-<td style="width: 143px; height: 164px;">
+<td style="width: 144px; height: 164px;">
 <p> 16KB</p>
 </td>
 <td style="width: 72px; height: 164px;">
@@ -420,7 +420,7 @@
 <td style="width: 96px; height: 164px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 164px;">
+<td style="width: 437px; height: 164px;">
 <p>Secure and encrypted, a “Password/Log-in” and Personal information holder</p>
 </td>
 </tr>
@@ -428,10 +428,10 @@
 <td style="width: 186px; height: 164px;">
 <p>Portable_Calendar3</p>
 </td>
-<td style="width: 138px; height: 164px;">
+<td style="width: 141px; height: 164px;">
 <p> 22KB</p>
 </td>
-<td style="width: 143px; height: 164px;">
+<td style="width: 144px; height: 164px;">
 <p> 28KB</p>
 </td>
 <td style="width: 72px; height: 164px;">
@@ -440,7 +440,7 @@
 <td style="width: 96px; height: 164px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 164px;">
+<td style="width: 437px; height: 164px;">
 <p>Calendar, with important dates, custom entries &amp; scheduler</p>
 </td>
 </tr>
@@ -448,10 +448,10 @@
 <td style="width: 186px; height: 106px;">
 <p>Selteco FTP-Client</p>
 </td>
-<td style="width: 138px; height: 106px;">
+<td style="width: 141px; height: 106px;">
 <p> 94KB</p>
 </td>
-<td style="width: 143px; height: 106px;">
+<td style="width: 144px; height: 106px;">
 <p> 96KB</p>
 </td>
 <td style="width: 72px; height: 106px;">
@@ -460,7 +460,7 @@
 <td style="width: 96px; height: 106px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 106px;">
+<td style="width: 437px; height: 106px;">
 <p>Easy File Transfer Protocol (FTP) Client</p>
 </td>
 </tr>
@@ -468,10 +468,10 @@
 <td style="width: 186px; height: 193px;">
 <p>Spread32</p>
 </td>
-<td style="width: 138px; height: 193px;">
+<td style="width: 141px; height: 193px;">
 <p> 171KB</p>
 </td>
-<td style="width: 143px; height: 193px;">
+<td style="width: 144px; height: 193px;">
 <p> 172KB</p>
 </td>
 <td style="width: 72px; height: 193px;">
@@ -480,7 +480,7 @@
 <td style="width: 96px; height: 193px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 193px;">
+<td style="width: 437px; height: 193px;">
 <p>Spreadsheet application, supports csv to xls (newer versions support xlsx, but not this one)</p>
 </td>
 </tr>
@@ -488,10 +488,10 @@
 <td style="width: 186px; height: 135px;">
 <p>sticky</p>
 </td>
-<td style="width: 138px; height: 135px;">
+<td style="width: 141px; height: 135px;">
 <p> 11KB</p>
 </td>
-<td style="width: 143px; height: 135px;">
+<td style="width: 144px; height: 135px;">
 <p> 16KB</p>
 </td>
 <td style="width: 72px; height: 135px;">
@@ -500,7 +500,7 @@
 <td style="width: 96px; height: 135px;">
 <p> 2</p>
 </td>
-<td style="width: 387px; height: 135px;">
+<td style="width: 437px; height: 135px;">
 <p>Desktop “Post it” like sticky notes, application</p>
 </td>
 </tr>
@@ -508,10 +508,10 @@
 <td style="width: 186px; height: 135px;">
 <p>..\Picofactory</p>
 </td>
-<td style="width: 138px; height: 135px;">
+<td style="width: 141px; height: 135px;">
 <p> 0KB</p>
 </td>
-<td style="width: 143px; height: 135px;">
+<td style="width: 144px; height: 135px;">
 <p> 4KB</p>
 </td>
 <td style="width: 72px; height: 135px;">
@@ -520,7 +520,7 @@
 <td style="width: 96px; height: 135px;">
 <p> 1</p>
 </td>
-<td style="width: 387px; height: 135px;">
+<td style="width: 437px; height: 135px;">
 <p>Desktop “Post it” like sticky notes, database folder</p>
 </td>
 </tr>
@@ -528,10 +528,10 @@
 <td style="width: 186px; height: 135px;">
 <p>..\Sticky Note</p>
 </td>
-<td style="width: 138px; height: 135px;">
+<td style="width: 141px; height: 135px;">
 <p> 0KB</p>
 </td>
-<td style="width: 143px; height: 135px;">
+<td style="width: 144px; height: 135px;">
 <p> 4KB</p>
 </td>
 <td style="width: 72px; height: 135px;">
@@ -540,7 +540,7 @@
 <td style="width: 96px; height: 135px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 135px;">
+<td style="width: 437px; height: 135px;">
 <p>Desktop “Post it” like sticky notes, database file</p>
 </td>
 </tr>
@@ -548,10 +548,10 @@
 <td style="width: 186px; height: 193px;">
 <p>surecrypt</p>
 </td>
-<td style="width: 138px; height: 193px;">
+<td style="width: 141px; height: 193px;">
 <p> 9KB</p>
 </td>
-<td style="width: 143px; height: 193px;">
+<td style="width: 144px; height: 193px;">
 <p> 12KB</p>
 </td>
 <td style="width: 72px; height: 193px;">
@@ -560,7 +560,7 @@
 <td style="width: 96px; height: 193px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 193px;">
+<td style="width: 437px; height: 193px;">
 <p>Secure File Encryption/Decryption, Supports Multi-file/Folders &amp; “Drag and Drop”</p>
 </td>
 </tr>
@@ -568,10 +568,10 @@
 <td style="width: 186px; height: 164px;">
 <p>win32pad</p>
 </td>
-<td style="width: 138px; height: 164px;">
+<td style="width: 141px; height: 164px;">
 <p> 25KB</p>
 </td>
-<td style="width: 143px; height: 164px;">
+<td style="width: 144px; height: 164px;">
 <p> 28KB</p>
 </td>
 <td style="width: 72px; height: 164px;">
@@ -580,7 +580,7 @@
 <td style="width: 96px; height: 164px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 164px;">
+<td style="width: 437px; height: 164px;">
 <p>Enhanced Notepad replacement. Can edit any type of plain text file</p>
 </td>
 </tr>
@@ -588,10 +588,10 @@
 <td style="width: 186px; height: 164px;">
 <p>Xpass</p>
 </td>
-<td style="width: 138px; height: 164px;">
+<td style="width: 141px; height: 164px;">
 <p> 13KB</p>
 </td>
-<td style="width: 143px; height: 164px;">
+<td style="width: 144px; height: 164px;">
 <p> 16KB</p>
 </td>
 <td style="width: 72px; height: 164px;">
@@ -600,7 +600,7 @@
 <td style="width: 96px; height: 164px;">
 <p> 0</p>
 </td>
-<td style="width: 387px; height: 164px;">
+<td style="width: 437px; height: 164px;">
 <p>Recover Hidden Passwords shown as “****”, supports “drag and drop”</p>
 </td>
 </tr>
