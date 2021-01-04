@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T01:43:17-05:00</updated>
+    <updated>2021-01-04T01:47:14-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,11 +17,11 @@
         <link href="https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/"/>
         <id>https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/</id>
 
-        <updated>2021-01-04T01:43:17-05:00</updated>
+        <updated>2021-01-04T01:47:14-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                <h2><strong><span style="color: #e67e23;">This version is a "Pure Office Productivity" Suite</span></strong></h2>
+                <h2><strong><span style="color: #e67e23;">This version is a "Pure Office Productivity" Suite<br><span style="color: #f50505;">I Suggest DFM 1024 (DMF-1) For Small Cluster Sizes</span></span></strong></h2>
 <p><span style="text-decoration: underline;"><strong>I will add more details</strong>, for now I'm just completing the suites/packs file lists and application descriptions, for all my releases.</span></p>
 <h2>Alkonost MaxFormat, free, can format floppies to DMF 1024 &amp; DMF 2048</h2>
 <h2><span style="text-decoration: underline;"><strong><span style="color: #e67e23; text-decoration: underline;">About DMF</span></strong></span></h2>
