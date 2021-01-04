@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T10:30:44-05:00</updated>
+    <updated>2021-01-04T10:58:48-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -150,7 +150,7 @@
         <link href="https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/"/>
         <id>https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/</id>
 
-        <updated>2021-01-04T10:29:09-05:00</updated>
+        <updated>2021-01-04T10:58:48-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -165,11 +165,15 @@
 <th>Upto_8MB</th>
 <td>128Bytes_<strong>Smallest_Possible</strong></td>
 </tr>
+<tr>
+<th>8MB-32mb</th>
+<td>512Bytes</td>
+</tr>
 </tbody>
 </table>
 <h3><strong>DMF 1024 Floppy is 512bytes<br></strong></h3>
 <h3><strong>DMF 2048 Floppy is 1kb</strong></h3>
-<h4>NTFS - Cluster Size in NT5 up (Windows 2000+)<br><span style="color: #f50505;">Not Ideal For USB FLASH rated 256mb or less<br></span><span style="color: #f50505;">Ideal For USB FLASH rated 512mb or more</span></h4>
+<h4><strong><span style="text-decoration: underline;">NTFS</span></strong> - Cluster Size in NT5 up (Windows 2000+)<br><span style="color: #f50505;">Not Ideal For USB FLASH rated 256mb or less<br></span><span style="color: #f50505;">Ideal For USB FLASH rated 512mb or more</span></h4>
 <table class="sbody-table table">
 <tbody>
 <tr class="sbody-tr">
@@ -194,7 +198,7 @@
 </tr>
 </tbody>
 </table>
-<h4>FAT-32 - Cluster Size in NT5 up (Windows 2000+)<br><span style="color: #f50505;">Not Ideal For USB FLASH rated 512mb or more<br></span><span style="color: #f50505;">Ideal For USB FLASH rated 256mb or less </span></h4>
+<h4><span style="text-decoration: underline;"><strong>FAT-32</strong></span> - Cluster Size in NT5 up (Windows 2000+)<br><span style="color: #f50505;">Not Ideal For USB FLASH rated 512mb or more<br></span><span style="color: #f50505;">Ideal For USB FLASH rated 256mb or less </span></h4>
 <table class="sbody-table table">
 <tbody>
 <tr class="sbody-tr">
@@ -212,6 +216,23 @@
 </tbody>
 </table>
 <h4>FAT-32 Cluster Size is 8KB, or More, @512MB and up</h4>
+<h4><strong><span style="text-decoration: underline;">exFAT</span></strong> - Cluster Size in NT5 up (Windows 2000+)</h4>
+<table class="sbody-table table">
+<tbody>
+<tr class="sbody-tr">
+<td class="sbody-td">32 GB–256 TB</td>
+<td class="sbody-td">128 KB</td>
+</tr>
+</tbody>
+</table>
+<p>...</p>
+<h3><span style="text-decoration: underline;"><strong>So </strong></span></h3>
+<p>Floppy, cant be lower sector/cluster size than 1 KB <strong>Best Fit DMF 1024</strong></p>
+<p>8MB or Less, but not a floppy, <strong>Best Fit FAT-16B</strong></p>
+<p>Over 8MB &amp; Under 32MB, <strong>Best Fit FAT16B</strong> (forced manually or Windows will use FAT-32)</p>
+<p>Over 32MB &amp; Under 256MB, <strong>Best Fit FAT32</strong></p>
+<p>Over 256MB &amp; Under 128GB, <strong>Best Fit NTFS</strong></p>
+<p>Over 128GB To 256GB (Max volume size support in Windows 10), <strong>Best Fit exFAT</strong></p>
             ]]>
         </content>
     </entry>
