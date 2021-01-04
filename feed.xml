@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T02:47:45-05:00</updated>
+    <updated>2021-01-04T02:48:51-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://aazard.github.io/aazards-personal-edited-versions-of-tiny-application-and-tools/"/>
         <id>https://aazard.github.io/aazards-personal-edited-versions-of-tiny-application-and-tools/</id>
 
-        <updated>2021-01-04T02:47:45-05:00</updated>
+        <updated>2021-01-04T02:48:51-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -44,10 +44,10 @@
 <p><strong>You could top here</strong></p>
 <p>…</p>
 <h3><strong>Nices</strong>:</h3>
-<p>AviTricks: Advanced avi video/audio editor. Chroma key, can mux wav/avi/bmp @ 475kb</p>
-<p>Divendos Screen Capturer: Screen Shots in bmp/recording in avi @ 139kb</p>
-<p>Streamosaur: Audio recording in wav/etc @ 20kb</p>
-<p>Wave Edit: edit audio @ 22kb</p>
+<p>AviTricks: Advanced avi video/audio editor. Chroma key, can mux wav/avi/bmp @ <span style="color: #f50505;">475kb</span></p>
+<p>Divendos Screen Capturer: Screen Shots in bmp/recording in avi @ <span style="color: #f50505;">139kb</span></p>
+<p>Streamosaur: Audio recording in wav/etc @ <span style="color: #f50505;">20kb</span></p>
+<p>Wave Edit: edit audio @ <span style="color: #f50505;">22kb</span></p>
 <p>Avi2wav: extract wav audio from avi video @ <span style="color: #f50505;">157kb</span></p>
 <p><strong>Sub-Total</strong>: <span style="color: #f50505;">813kb </span><strong><u>NOT ZIPPED</u></strong></p>
 <p>…</p>
