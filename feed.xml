@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T01:53:01-05:00</updated>
+    <updated>2021-01-04T01:54:09-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -84,7 +84,7 @@
         <link href="https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/"/>
         <id>https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/</id>
 
-        <updated>2021-01-04T01:53:01-05:00</updated>
+        <updated>2021-01-04T01:54:09-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -109,10 +109,10 @@
 <p><strong>Folder </strong></p>
 </td>
 <td style="width: 138px; height: 134px;">
-<p><strong>Size Of Files </strong></p>
+<p><strong>Size_Of_Files </strong></p>
 </td>
 <td style="width: 143px; height: 134px;">
-<p><strong>Size On Disk </strong></p>
+<p><strong>Size_On_Disk </strong></p>
 </td>
 <td style="width: 72px; height: 134px;">
 <p><strong>Files </strong></p>
