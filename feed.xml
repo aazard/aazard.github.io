@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T02:19:31-05:00</updated>
+    <updated>2021-01-04T02:20:20-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -84,7 +84,7 @@
         <link href="https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/"/>
         <id>https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/</id>
 
-        <updated>2021-01-04T02:19:31-05:00</updated>
+        <updated>2021-01-04T02:20:20-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -101,7 +101,7 @@
 </div>
 </div>
 <h3>Folders Information<br><span style="color: #f50505;">Note: Aim For "SMALLEST" Cluster Size</span></h3>
-<p><span style="color: #f50505;"><strong>- As viewed on a 5TB NTFS HDD (so cluster size is a HUGE 4kb, compared to a DMF Floppy's 1kb)</strong></span></p>
+<p><span style="color: #f50505;"><strong>- As viewed on a 5TB NTFS HDD<br>- So cluster size is a HUGE 4kb, compared to a DMF Floppy's 1kb)</strong></span></p>
 <h4>NTFS - Cluster Size in NT5 up (Windows 2000+)</h4>
 <table class="sbody-table table" style="width: 294px;">
 <tbody>
