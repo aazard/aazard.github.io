@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T10:58:48-05:00</updated>
+    <updated>2021-01-04T11:00:05-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -150,7 +150,7 @@
         <link href="https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/"/>
         <id>https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/</id>
 
-        <updated>2021-01-04T10:58:48-05:00</updated>
+        <updated>2021-01-04T11:00:05-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -227,7 +227,7 @@
 </table>
 <p>...</p>
 <h3><span style="text-decoration: underline;"><strong>So </strong></span></h3>
-<p>Floppy, cant be lower sector/cluster size than 1 KB <strong>Best Fit DMF 1024</strong></p>
+<p>DMF Floppy, cant be lower sector/cluster size than 1 KB <strong>Best Fit DMF 1024</strong></p>
 <p>8MB or Less, but not a floppy, <strong>Best Fit FAT-16B</strong></p>
 <p>Over 8MB &amp; Under 32MB, <strong>Best Fit FAT16B</strong> (forced manually or Windows will use FAT-32)</p>
 <p>Over 32MB &amp; Under 256MB, <strong>Best Fit FAT32</strong></p>
