@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T02:32:11-05:00</updated>
+    <updated>2021-01-04T02:34:02-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/"/>
         <id>https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/</id>
 
-        <updated>2021-01-04T02:32:11-05:00</updated>
+        <updated>2021-01-04T02:34:02-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -68,7 +68,7 @@
 </tr>
 </tbody>
 </table>
-<h4> </h4>
+<h4>FAT-32 Cluster Size is 8KB, or More, @512MB and up</h4>
             ]]>
         </content>
     </entry>
