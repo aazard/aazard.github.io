@@ -3,12 +3,586 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2020-12-29T03:03:22-05:00</updated>
+    <updated>2021-01-04T01:18:19-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
     <id>https://aazard.github.io</id>
 
+    <entry>
+        <title>1.68mb (1680kb) DMF Floppy Office Suite: Pure Office Productivity Version</title>
+        <author>
+            <name>aazard</name>
+        </author>
+        <link href="https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/"/>
+        <id>https://aazard.github.io/168mb-1680kb-dmf-floppy-office-suite-pure-office-productivity-version/</id>
+
+        <updated>2021-01-04T01:18:19-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <h2><strong><span style="color: #e67e23;">This version is a "Pure Office Productivity" Suite</span></strong></h2>
+<p><span style="text-decoration: underline;"><strong>I will add more details</strong>, for now I'm just completing the suites/packs file lists and application descriptions, for all my releases.</span></p>
+<h2>Alkonost MaxFormat, free, can format floppies to DMF 1024 &amp; DMF 2048</h2>
+<h2><span style="text-decoration: underline;"><strong><span style="color: #e67e23; text-decoration: underline;">About DMF</span></strong></span></h2>
+<p><strong><i>DMF and 1.68 MB</i></strong> formats are the same physical format of 80 tracks and 21 sectors per track. The 1.68 MB format has 224 entries in the root directory, and a cluster size is 512 bytes. DMF format has <i>only 16 entries</i> in the root directory (you need create a subdirectory to copy more than 16 files), and the cluster size is 1024 (<strong>DMF 1024</strong>) or 2048 bytes (<strong>DMF 2048</strong>). You can check the cluster size in the Image Information...</p>
+<p>Microsoft uses DMF 2048 for the floppy version of some of their newer software. Windows 95/98/Me and Windows NT/2000/XP/2003 read and write directly in DMF format. You will need FDREAD for this format under MSDOS or Windows 3.1.</p>
+<p><span style="color: #f50505;"><em><strong>1.72 MB format uses 82 tracks and is </strong></em><strong><span style="text-decoration: underline;">not compatible</span></strong><em><strong> with Windows NT/2000/XP/2003. </strong></em></span></p>
+<p>1.68 MB and DMF are the same physical format, and are compatible with Windows NT/2000/XP/2003. <strong>I highly suggest you don't use 1.72 MB.</strong></p>
+<p>The <span style="text-decoration: underline;"><strong>DMF 2048</strong></span> format is often used for distribution floppies under Windows 95/98 and Windows NT.</p>
+<p>The Below Article From Wikipedia Is Referring To DMF 2048</p>
+<h1 id="firstHeading" class="firstHeading" lang="en"><span style="text-decoration: underline;"><strong><span style="color: #e67e23; text-decoration: underline;">Distribution Media Format</span></strong></span></h1>
+<div id="bodyContent" class="mw-body-content">
+<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+<div> </div>
+<div id="jump-to-nav"><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">Distribution Media Format</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> (DMF) is a </span><a href="https://en.wikipedia.org/wiki/File_format" title="File format" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">format</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> for </span><a href="https://en.wikipedia.org/wiki/Floppy_disk" title="Floppy disk" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">floppy disks</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> that </span><a href="https://en.wikipedia.org/wiki/Microsoft" title="Microsoft" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Microsoft</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> used to distribute </span><a href="https://en.wikipedia.org/wiki/Software" title="Software" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">software</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">.</span><sup id="cite_ref-1" class="reference" style="color: var(--text-editor-body-color); font-family: var(--font-base); font-weight: var(--font-weight-normal);"><a href="https://en.wikipedia.org/wiki/Distribution_Media_Format#cite_note-1">[1]</a></sup><sup id="cite_ref-2" class="reference" style="color: var(--text-editor-body-color); font-family: var(--font-base); font-weight: var(--font-weight-normal);"><a href="https://en.wikipedia.org/wiki/Distribution_Media_Format#cite_note-2">[2]</a></sup><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> <span style="text-decoration: underline;"><strong><span style="color: #f50505; text-decoration: underline;">It allowed the disk to contain 1680 kB of data on a 3½-inch disk, instead of the standard 1440 kB</span></strong></span>. As a side effect, utilities had to specially support the format in order to read and write the disks, which made </span><a href="https://en.wikipedia.org/wiki/Copyright_infringement" title="Copyright infringement" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">copying</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> of products distributed on this </span><a href="https://en.wikipedia.org/wiki/Data_storage" title="Data storage" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">medium</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> more difficult. An Apple Macintosh computer running </span><a href="https://en.wikipedia.org/wiki/Disk_Copy" title="Disk Copy" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Disk Copy</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> 6.3.3 on the Mac OS 7.6 or later operating system can copy and make DMF disks.</span><sup id="cite_ref-3" class="reference" style="color: var(--text-editor-body-color); font-family: var(--font-base); font-weight: var(--font-weight-normal);"><a href="https://en.wikipedia.org/wiki/Distribution_Media_Format#cite_note-3">[3]</a></sup><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> The first Microsoft software product that uses DMF for distribution were the "c" revisions of Office 4.x. It also was the first software product to use </span><a href="https://en.wikipedia.org/wiki/Cabinet_(file_format)" title="Cabinet (file format)" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">CAB files</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">, then called "Diamond".</span></div>
+<div id="mw-content-text" class="mw-content-ltr" dir="ltr" lang="en">
+<div class="mw-parser-output">
+<p>Comparison of DMF and standard 1440 kB 3½-inch diskettes:</p>
+<table class="wikitable">
+<tbody>
+<tr>
+<th> </th>
+<th align="center">1440 kB</th>
+<th align="center">DMF</th>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Cylinder-head-sector" title="Cylinder-head-sector">Tracks</a></td>
+<td>80</td>
+<td>80</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Disk_sector" title="Disk sector">Sectors</a> per track</td>
+<td>18</td>
+<td>21</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Data_cluster" title="Data cluster">Cluster</a> size</td>
+<td>512 <a href="https://en.wikipedia.org/wiki/Byte" title="Byte">bytes</a></td>
+<td>1024 or 2048 bytes</td>
+</tr>
+<tr>
+<td>Root directory entries</td>
+<td>224</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<p>DMF in the form of a <strong><span style="color: #f50505;">1680 kB</span></strong> <a href="https://en.wikipedia.org/wiki/VHD_(file_format)#Virtual_Floppy_Disk_.28VFD.29" title="VHD (file format)">Virtual Floppy Disk</a> (VFD) image and <a href="https://en.wikipedia.org/wiki/IBM_Extended_Density_Format" title="IBM Extended Density Format">IBM Extended Density Format</a> (XDF) images are supported by <a href="https://en.wikipedia.org/wiki/Windows_Virtual_PC" title="Windows Virtual PC">Windows Virtual PC</a>.<sup id="cite_ref-4" class="reference"><a href="https://en.wikipedia.org/wiki/Distribution_Media_Format#cite_note-4">[4]</a></sup></p>
+</div>
+</div>
+</div>
+<h2><strong><span style="text-decoration: underline;"><span style="color: #e67e23; text-decoration: underline;">My Tool Set Description</span></span></strong></h2>
+<h3>Folders Information</h3>
+<h4>Created by using <a href="http://www.nirsoft.net/">FoldersReport</a></h4>
+<table>
+<tbody>
+<tr>
+<td width="430">
+<p><strong>Folder </strong></p>
+</td>
+<td width="97">
+<p><strong>Size Of Files </strong></p>
+</td>
+<td width="92">
+<p><strong>Size On Disk </strong></p>
+</td>
+<td width="51">
+<p><strong>Files </strong></p>
+</td>
+<td width="66">
+<p><strong>Folders </strong></p>
+</td>
+<td width="772">
+<p><strong>Description</strong></p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only</p>
+</td>
+<td width="97">
+<p> 1,738 KB</p>
+</td>
+<td width="92">
+<p> 1,800 KB</p>
+</td>
+<td width="51">
+<p> 28</p>
+</td>
+<td width="66">
+<p> 23</p>
+</td>
+<td width="772">
+<p>The “unzipped” suite. When packed, it exists as the “100K Ziper” (unzipped) and a single zipped file, containing rest of suite</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\100k zipper v1.21</p>
+</td>
+<td width="97">
+<p> 71 KB</p>
+</td>
+<td width="92">
+<p> 72 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Archiver. Supports zip and zip SFX. Can zip/unzip. *v1.21 and v1.25 are the 2 existing “bug free”, v1.25 has nicer UI/Win98 fixes</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\AntMem v13- Try to Free 64mb</p>
+</td>
+<td width="97">
+<p> 0 KB</p>
+</td>
+<td width="92">
+<p> 4 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Sub-1kb Visual Basic (VB) memory manager. This version is set to attempt to free 64mb and defrag all memory.</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\Atlantis Nova</p>
+</td>
+<td width="97">
+<p> 389 KB</p>
+</td>
+<td width="92">
+<p> 392 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Word Processor. Create rich text documents with images support. Opens doc format, saves as rtf/txt</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\dsdel</p>
+</td>
+<td width="97">
+<p> 7 KB</p>
+</td>
+<td width="92">
+<p> 8 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Secure File Deletion, Supports Multi-file/Folders &amp; “Drag and Drop”</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\Eve</p>
+</td>
+<td width="97">
+<p> 73 KB</p>
+</td>
+<td width="92">
+<p> 80 KB</p>
+</td>
+<td width="51">
+<p> 2</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>A vector image diagram and drawing application/ini.</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\Free PDF Editor</p>
+</td>
+<td width="97">
+<p> 328 KB</p>
+</td>
+<td width="92">
+<p> 328 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Create “rich text”, with images PDF documents, combined with Free PDF to Word, you can edit a existing PDF</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\Free PDF to Word</p>
+</td>
+<td width="97">
+<p> 313 KB</p>
+</td>
+<td width="92">
+<p> 324 KB</p>
+</td>
+<td width="51">
+<p> 4</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Converts PDF files to rtf or doc. Ideal formatting, with Free PDF Editor, you can edit a existing PDF. All files</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\mailpeek</p>
+</td>
+<td width="97">
+<p> 79 KB</p>
+</td>
+<td width="92">
+<p> 88 KB</p>
+</td>
+<td width="51">
+<p> 3</p>
+</td>
+<td width="66">
+<p> 3</p>
+</td>
+<td width="772">
+<p>MailPeek Email Client (no ssl support) view/send with attachments. Has address book and alerts, exe/ini’s/alert wav files</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\mailpeek\mailbox1</p>
+</td>
+<td width="97">
+<p> 0 KB</p>
+</td>
+<td width="92">
+<p> 0 KB</p>
+</td>
+<td width="51">
+<p> 0</p>
+</td>
+<td width="66">
+<p> 2</p>
+</td>
+<td width="772">
+<p>MailPeek Email Client (no ssl support) view/send with attachments. Has address book and alerts. Inbox folder</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\mailpeek\mailbox1\attach</p>
+</td>
+<td width="97">
+<p> 0 KB</p>
+</td>
+<td width="92">
+<p> 0 KB</p>
+</td>
+<td width="51">
+<p> 0</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>MailPeek Email Client (no ssl support) view/send with attachments. Has address book and alerts. Sent attachments folder</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\mailpeek\mailbox1\sent</p>
+</td>
+<td width="97">
+<p> 0 KB</p>
+</td>
+<td width="92">
+<p> 0 KB</p>
+</td>
+<td width="51">
+<p> 0</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>MailPeek Email Client (no ssl support) view/send with attachments. Has address book and alerts. Sent mail folder</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\mempad</p>
+</td>
+<td width="97">
+<p> 80 KB</p>
+</td>
+<td width="92">
+<p> 84 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Plain text outliner, supports url, external/internal links and more</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\mereo-1.9.4-bin</p>
+</td>
+<td width="97">
+<p> 33 KB</p>
+</td>
+<td width="92">
+<p> 36 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Easy and Secure. A HyperText Transfer Protocol (HTTP) server</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\passpack</p>
+</td>
+<td width="97">
+<p> 14 KB</p>
+</td>
+<td width="92">
+<p> 16 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Secure and encrypted, a “Password/Log-in” and Personal information holder</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\Portable Calendar3</p>
+</td>
+<td width="97">
+<p> 22 KB</p>
+</td>
+<td width="92">
+<p> 28 KB</p>
+</td>
+<td width="51">
+<p> 3</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Calendar, with important dates, custom entries &amp; scheduler</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\Selteco FTP Client</p>
+</td>
+<td width="97">
+<p> 94 KB</p>
+</td>
+<td width="92">
+<p> 96 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Easy File Transfer Protocol (FTP) Client</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\Spread32</p>
+</td>
+<td width="97">
+<p> 171 KB</p>
+</td>
+<td width="92">
+<p> 172 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Spreadsheet application, supports csv to xls (newer versions support xlsx, but not this one)</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\sticky</p>
+</td>
+<td width="97">
+<p> 11 KB</p>
+</td>
+<td width="92">
+<p> 16 KB</p>
+</td>
+<td width="51">
+<p> 2</p>
+</td>
+<td width="66">
+<p> 2</p>
+</td>
+<td width="772">
+<p>Desktop “Post it” like sticky notes, application</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\sticky\Picofactory</p>
+</td>
+<td width="97">
+<p> 0 KB</p>
+</td>
+<td width="92">
+<p> 4 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 1</p>
+</td>
+<td width="772">
+<p>Desktop “Post it” like sticky notes, database folder</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\sticky\Picofactory\Sticky Note</p>
+</td>
+<td width="97">
+<p> 0 KB</p>
+</td>
+<td width="92">
+<p> 4 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Desktop “Post it” like sticky notes, database file</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\surecrypt</p>
+</td>
+<td width="97">
+<p> 9 KB</p>
+</td>
+<td width="92">
+<p> 12 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Secure File Encryption/Decryption, Supports Multi-file/Folders &amp; “Drag and Drop”</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\win32pad</p>
+</td>
+<td width="97">
+<p> 25 KB</p>
+</td>
+<td width="92">
+<p> 28 KB</p>
+</td>
+<td width="51">
+<p> 1</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Enhanced Notepad replacement. Can edit any type of plain text file</p>
+</td>
+</tr>
+<tr>
+<td width="430">
+<p> E:\1680kb DMF Floppy Office Only\Xpass</p>
+</td>
+<td width="97">
+<p> 13 KB</p>
+</td>
+<td width="92">
+<p> 16 KB</p>
+</td>
+<td width="51">
+<p> 2</p>
+</td>
+<td width="66">
+<p> 0</p>
+</td>
+<td width="772">
+<p>Recover Hidden Passwords shown as “****”, supports “drag and drop”</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>DMF Floppy Office v5.0.1: aazard&#x27;s 2021 Edition</title>
         <author>
