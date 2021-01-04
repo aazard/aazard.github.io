@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T03:01:10-05:00</updated>
+    <updated>2021-01-04T03:05:11-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://aazard.github.io/aazards-personal-edited-versions-of-tiny-application-and-tools/"/>
         <id>https://aazard.github.io/aazards-personal-edited-versions-of-tiny-application-and-tools/</id>
 
-        <updated>2021-01-04T03:01:10-05:00</updated>
+        <updated>2021-01-04T03:05:11-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -44,7 +44,7 @@
 <h3><span style="color: #e67e23;"><strong>You could stop here and do ALOT!</strong></span></h3>
 <p>…</p>
 <h3><strong>Nices</strong>:</h3>
-<p>AviTricks: Advanced avi video/audio editor. Chroma key, can mux wav/avi/bmp @ <span style="color: #f50505;">475kb</span></p>
+<p>AviTricks: Avi video/audio editor. Chroma key, mux wav/avi/bmp @ <span style="color: #f50505;">475kb</span></p>
 <p>Divendos Screen Capturer: Screen Shots in bmp/recording in avi @ <span style="color: #f50505;">139kb</span></p>
 <p>Streamosaur: Audio recording in wav/etc @ <span style="color: #f50505;">20kb</span></p>
 <p>Wave Edit: edit audio @ <span style="color: #f50505;">22kb</span></p>
@@ -125,7 +125,7 @@
 <h3><strong>Media</strong>:</h3>
 <p>Wav2mp3, wav 2 mp3/mp3 2 wav, @ <span style="color: #f50505;">83kb</span></p>
 <p>Stoik avi2wmv, avi 2 wmv/wmv 2 avi @ <span style="color: #f50505;">89kb</span></p>
-<p>AviScreen, A better screen record tool <strong>with audio/no need for Streamosaur</strong> @ <span style="color: #f50505;">287kb</span></p>
+<p>AviScreen, Screen record tool with audio @ <span style="color: #f50505;">287kb<br>- <strong>Can remove Streamosaur if used</strong></span></p>
 <p>Send to convert, more image formats, no DDS, conversion @ <span style="color: #f50505;">209kb</span></p>
 <p>Flicflac, more audio formats conversion @ <span style="color: #f50505;">1061kb</span></p>
 <p>DP Video convert, more video formats conversion @ <span style="color: #f50505;">3972kb</span></p>
@@ -134,10 +134,10 @@
 <p> </p>
 <p>…</p>
 <h3><span style="color: #e67e23;"><strong>Smaller, or bigger, Options</strong>:</span></h3>
-<p>SGsoft’s SG WordPad, a RTF &amp; Plain text editor (saves as rtf/txt) @ <span style="color: #f50505;">17kb</span>  (<u>if it replaces “Atlantis Nova”, <strong>reducing 373kb of space used</strong></u>)</p>
-<p>PDF Producer: Plain Text PDF creation @ <span style="color: #f50505;">22kb</span>  (<u>if it replaces “Smart Free PDF”, <strong>reducing 301kb of space used</strong></u>)</p>
-<p>Savage Edit: Slightly more feature full Plain text editor than “TheGun” @ <span style="color: #f50505;">14kb</span>  (<u>if it replaces “TheGun”, adding 8kb in size difference</u>)</p>
-<p>Win32Pad - notepad replacement @ <span style="color: #f50505;">26kb </span>(<u>if it replaces “TheGun”, adding 20kb in size difference</u>)</p>
+<p>SGsoft’s SG WordPad, a RTF &amp; Plain text editor (saves as rtf/txt) @ <span style="color: #f50505;">17kb<br></span><u>- if it replaces “Atlantis Nova”, <strong>reducing 373kb of space used</strong></u></p>
+<p>PDF Producer: Plain Text PDF creation @ <span style="color: #f50505;">22kb<br></span>- <u>if it replaces “Smart Free PDF”, <strong>reducing 301kb of space used</strong></u></p>
+<p>Savage Edit: Slightly more feature full Plain text editor than “TheGun” @ <span style="color: #f50505;">14kb<br></span>- <u>if it replaces “TheGun”, adding 8kb in size difference</u></p>
+<p>Win32Pad - notepad replacement @ <span style="color: #f50505;">26kb<br></span>- <u>if it replaces “TheGun”, adding 20kb in size difference</u></p>
 <p> </p>
             ]]>
         </content>
