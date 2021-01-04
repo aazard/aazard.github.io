@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T02:29:51-05:00</updated>
+    <updated>2021-01-04T02:32:11-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/"/>
         <id>https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/</id>
 
-        <updated>2021-01-04T02:29:51-05:00</updated>
+        <updated>2021-01-04T02:32:11-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -31,7 +31,7 @@
 <tbody>
 <tr class="sbody-tr">
 <td class="sbody-td">7MB-16TB</td>
-<td class="sbody-td">4 KB</td>
+<td class="sbody-td">4KB_(@512MB+_NTFS_WINS)</td>
 </tr>
 <tr class="sbody-tr">
 <td class="sbody-td">16TB–32TB</td>
