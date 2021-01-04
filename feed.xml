@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T02:59:41-05:00</updated>
+    <updated>2021-01-04T03:01:10-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://aazard.github.io/aazards-personal-edited-versions-of-tiny-application-and-tools/"/>
         <id>https://aazard.github.io/aazards-personal-edited-versions-of-tiny-application-and-tools/</id>
 
-        <updated>2021-01-04T02:59:41-05:00</updated>
+        <updated>2021-01-04T03:01:10-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -34,7 +34,7 @@
 <p><u>Apps are ALL UPX Re-Packaged, so “disk compression” is no additional savings…just slower.</u></p>
 <p>…</p>
 <h3><strong>Apps Needed To Create/Edit Up To 8K 3D, Normals &amp; Images, plus edit cfg/ini files</strong></h3>
-<p>MW GFX ConvimX, image format converter that unleashes DDS conversion, to BC5, includes viewer @ <span style="color: #f50505;">506kb<br></span>- <span style="color: #f50505;">1028kb</span> if you need old ACE format support &amp; help dialog, <strong><u>check file tooltips in explorer to find/delete</u></strong>)</p>
+<p>MW-GFX ConvimX, image converter, DDS to BC5, includes viewer @ <span style="color: #f50505;">506kb<br></span>- <span style="color: #f50505;">1028kb</span> if you need ACE support &amp; help dialog, <br><strong><u>- check file tooltips in explorer to find/delete</u></strong></p>
 <p>Fotografix, "Pro" editing 7.8mb 8K images with a @ <span style="color: #f50505;">276kb</span> app...beautiful</p>
 <p>nJob, Normal Map tools @ <span style="color: #f50505;">1184kb</span></p>
 <p>MeshMagic – 3D editor @ <span style="color: #f50505;">347kb</span></p>
