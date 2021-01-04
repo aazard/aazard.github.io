@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T02:24:54-05:00</updated>
+    <updated>2021-01-04T02:29:51-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/"/>
         <id>https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/</id>
 
-        <updated>2021-01-04T02:24:54-05:00</updated>
+        <updated>2021-01-04T02:29:51-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -26,7 +26,7 @@
 <p><strong><span style="color: #e67e23;">This will make you "squeeze" the most data in, esp when files are very small</span></strong></p>
 <h3><strong>DMF 1024 Floppy is 512bytes<br></strong></h3>
 <h3><strong>DMF 2048 Floppy is 1kb</strong></h3>
-<h4>NTFS - Cluster Size in NT5 up (Windows 2000+)</h4>
+<h4>NTFS - Cluster Size in NT5 up (Windows 2000+)<br><span style="color: #f50505;">Not Ideal For USB FLASH rated 256mb or less<br></span><span style="color: #f50505;">Ideal For USB FLASH rated 512mb or more</span></h4>
 <table class="sbody-table table">
 <tbody>
 <tr class="sbody-tr">
@@ -51,7 +51,7 @@
 </tr>
 </tbody>
 </table>
-<h4>FAT-32 - Cluster Size in NT5 up (Windows 2000+)</h4>
+<h4>FAT-32 - Cluster Size in NT5 up (Windows 2000+)<br><span style="color: #f50505;">Not Ideal For USB FLASH rated 512mb or more<br></span><span style="color: #f50505;">Ideal For USB FLASH rated 256mb or less </span></h4>
 <table class="sbody-table table">
 <tbody>
 <tr class="sbody-tr">
