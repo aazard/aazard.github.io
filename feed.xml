@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T23:43:41-05:00</updated>
+    <updated>2021-01-05T00:08:33-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://aazard.github.io/minimal-gui-based-stable-application-for-given-task/"/>
         <id>https://aazard.github.io/minimal-gui-based-stable-application-for-given-task/</id>
 
-        <updated>2021-01-04T23:43:41-05:00</updated>
+        <updated>2021-01-05T00:08:33-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -87,7 +87,7 @@
 <p><strong>On-screen Keyboard</strong>: Shellfish @ <span style="color: #f50505;">182kb</span></p>
 <p><strong>On-screen Clock</strong>: Tiny Clock @ <span style="color: #f50505;">11kb</span></p>
 <p><strong>Screen Magnifier</strong>: Fatbits @ <span style="color: #f50505;">32kb</span></p>
-<p><strong>File Rename</strong>: Rename files @ <span style="color: #f50505;">128kb</span></p>
+<p><strong>File Rename</strong>: Renamer 5 Beta @ <span style="color: #f50505;">54kb</span></p>
 <p><strong>File Search</strong>: SearchMyFiles @ <span style="color: #f50505;">78kb</span></p>
 <p><strong>Desktop Spellcheck</strong>: TinySpell @ <span style="color: #f50505;">641kb</span></p>
 <p><strong>Sticky Notes</strong>: Pico Sticky Notes @ <span style="color: #f50505;">11kb</span></p>
