@@ -3,12 +3,98 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T11:00:05-05:00</updated>
+    <updated>2021-01-04T22:53:44-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
     <id>https://aazard.github.io</id>
 
+    <entry>
+        <title>Minimal GUI Based STABLE Application For Given Task</title>
+        <author>
+            <name>aazard</name>
+        </author>
+        <link href="https://aazard.github.io/minimal-gui-based-stable-application-for-given-task/"/>
+        <id>https://aazard.github.io/minimal-gui-based-stable-application-for-given-task/</id>
+
+        <updated>2021-01-04T22:53:44-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <h2><span style="color: #001cf1;"><strong><u>Minimal GUI Based STABLE Application For Given Task<br>List That Works On Current Windows 10 64Bit In 2021</u></strong></span></h2>
+<p> </p>
+<p><strong><span style="color: #e67e23;">This is a list of the “minimal” app needed for a given “task”, ie; working with docx files or editing an avi file. GUI based still working on Windows 10 64Bit in 2021</span></strong></p>
+<p> </p>
+<h2><span style="color: #001cf1;"><strong><u>Office tasks: </u></strong></span></h2>
+<p>* Including basic “Office via Internet” tasks, like Web Browser, WYSIWYG Website &amp; HTML Editors, FTP &amp; HTTP server clients, and commonly used applications in an office environment<br>* Also included are “Basic Security” tools for file encryption/deletion, password/account info (etc.) storage, and commonly used applications in an office environment</p>
+<p><strong> </strong></p>
+<p><strong>Plain Text</strong>, <strong>With “Open/Save As” .txt</strong> <strong>Format</strong>: The Gun @ <span style="color: #f50505;">6kb</span></p>
+<p><strong>Plain Text</strong>, <strong>With “Open/Save As” With Advanced txt Formats</strong>: Win32pad @ <span style="color: #f50505;">26kb</span></p>
+<p><strong>Plain Text .pdf</strong> <strong>Creation</strong>: Pdf Producer @ <span style="color: #f50505;">22kb</span></p>
+<p><strong> </strong></p>
+<p><strong>Rich Text, With “Open/Save As” .rtf Format</strong>: SGsoft Wordpad @ <span style="color: #f50505;">17kb</span></p>
+<p><strong>Rich Text, With True “Open” .doc</strong>, “save as” .rtf (not attempt to recover text): Atlantis Nova @ <span style="color: #f50505;">390kb</span></p>
+<p><strong>Rich Text, With “Open/Save As” .doc</strong> (also .<strong>docx, export to ebup/webpage, zipped/encrypted</strong> &amp; US English <strong><u>spell check</u></strong> bonus!): Atlantis 4 Lite @ <span style="color: #f50505;">1760kb</span></p>
+<p><strong>Rich .pdf Creation</strong>: Smart Free Pdf @ <span style="color: #f50505;">323kb</span></p>
+<p><strong>Rich .pdf Creation, “Save WIP/Edit Created Files” Ability</strong>: Free PDF Editor @ <span style="color: #f50505;">328kb</span></p>
+<p><strong> </strong></p>
+<p><strong>Pdf To .rtf/.doc Conversion</strong>: Free Pdf to Word @ <span style="color: #f50505;">313kb</span></p>
+<p><strong>Pdf Viewing</strong>: Cool Pdf Reader v1.0 @ <span style="color: #f50505;">586kb</span></p>
+<p><strong>Pdf Editing</strong>, direct “open/save as” .pdf: TIA Pdf Edit @ <span style="color: #f50505;">5881kb</span></p>
+<p><strong> </strong></p>
+<p><strong>Csv Database “Open/Save As”</strong>: Csv Board @ <span style="color: #f50505;">72kb</span></p>
+<p><strong>Spreadsheets csv, xls, xml “Open/Save As”</strong> Full function: Spread32 (older) @ <span style="color: #f50505;">172kb</span></p>
+<p><strong>Spreadsheets csv, xlsx, xlmx “Open/Save As”</strong> Full function: Spread32 @ <span style="color: #f50505;">942kb</span></p>
+<p><strong>Dfb “Open/Save As”</strong>: DFB Explorer @ <span style="color: #f50505;">36kb</span></p>
+<p><strong>Mdb “Open/Save As”</strong>: MDB Plus @ <span style="color: #f50505;">1378kb</span></p>
+<p><strong>SQL “Open/Save As”</strong>: SQLite Spy @ <span style="color: #f50505;">1479kb</span></p>
+<p><strong> </strong></p>
+<p><strong>Basic “Ppt Like Presentations” Tool</strong>: Zoom It! @ <span style="color: #f50505;">336kb</span></p>
+<p><strong>Pptx “Open” But Save As npp/pdf/Video</strong>: NCH Presenter <span style="color: #f50505;">969kb</span></p>
+<p><strong>Ppt “Open/Save As” Creation</strong>: Softmaker  Presentations 2008 (Base Fonts) @ <span style="color: #f50505;">2075kb</span></p>
+<p><strong>Pptx “Open/Save As” Creation</strong>: Softmaker Presentations 2010 (Base Fonts) @ <span style="color: #f50505;">4702kb</span></p>
+<p> </p>
+<p><strong>Email Send</strong>, with attachments: Quick Mail @ <span style="color: #f50505;">23kb</span></p>
+<p><strong>Email Client</strong>, with send, receive, address book &amp; alert tone: Mail Peek @ <span style="color: #f50505;">75kb</span></p>
+<p><strong>Email Client</strong>, with as above, plus SSL support: nPOPuk-SSL @ <span style="color: #f50505;">204kb</span></p>
+<p> </p>
+<p><strong>WYSIWYG HTML “Open Save As”</strong>: HTML Doc Edit @ <span style="color: #f50505;">71kb</span></p>
+<p><strong>HTML Editing, With Tag/Etc. Support</strong>: Leafier @ <span style="color: #f50505;">143kb</span></p>
+<p><strong>WYSIWYG Website Authoring</strong>: WYSIWYG WebBuilder v2.8 @ <span style="color: #f50505;">354kb</span></p>
+<p><strong>HTTP File &amp; Web Server</strong>: Mereo @ <span style="color: #f50505;">34kb</span></p>
+<p> </p>
+<p><strong>Web Browser, With GUI, Trident (IE) Engine Based, “</strong><strong>YouTube videos work”</strong>:<br>Voyager XG Major Geeks edition @ <span style="color: #f50505;">89kb </span><br>- <strong>&amp;, for modern UI/plugins/pop-up block, etc,</strong> Green Browser @ <span style="color: #f50505;">1032kb</span></p>
+<p><strong>Web Browser, With GUI, Stand-alone, “</strong><strong>No YouTube”</strong>: D-Plus @ <span style="color: #f50505;">1081kb</span></p>
+<p><strong>Web Browser, With GUI, Stand-alone, “</strong><strong>YouTube videos work”</strong>:<br>K-Melon Gecko Engine version @ (<span style="color: #f50505;">abit lighter than goanna version, resl number <strong>SOON</strong></span>)</p>
+<p><strong>Web Browser, With GUI, Stand-alone, “</strong><strong>PWA &amp; YouTube Work”</strong>:<br>K-Melon Goanna Engine version @ <span style="color: #f50505;">54428kb</span></p>
+<p> </p>
+<p><strong>Financial Manager</strong>: Metalogic Finance Explorer @ <span style="color: #f50505;">452kb</span></p>
+<p><strong>Scientific (Graph, Gradient) Calculator</strong>: ReactOS Calc v1 @ <span style="color: #f50505;">20kb</span></p>
+<p> </p>
+<p><strong>Secure File Deletion</strong>: SureCrypt @ <span style="color: #f50505;">10kb</span></p>
+<p><strong>Secure File Encrypt/Decrypt</strong>: DS Del @ <span style="color: #f50505;">8kb</span></p>
+<p><strong>Secure Password Generator, Account Info (Etc.) Storage</strong>: Passpack @ <span style="color: #f50505;">14kb</span></p>
+<p><strong>Take File Ownership</strong>: Take Ownership Pro @ <span style="color: #f50505;">205kb</span></p>
+<p><strong>Unlock And/Or Delete Locked File</strong>: KillBox @ <span style="color: #f50505;">38kb</span></p>
+<p><strong>End Process</strong>: Taskill @ <span style="color: #f50505;">7kb</span></p>
+<p><strong> </strong></p>
+<p><strong>Vector Diagrams</strong>: EVE @ <span style="color: #f50505;">74kb</span></p>
+<p><strong>Screenshot And Record</strong>: Divendos Screen Capturer @ <span style="color: #f50505;">139kb</span></p>
+<p><strong>Desktop Calander/Sheduler</strong>: Portable Calandar 3 @ <span style="color: #f50505;">22kb</span></p>
+<p><strong>On-screen Keyboard</strong>: Shellfish @ <span style="color: #f50505;">182kb</span></p>
+<p><strong>On-screen Clock</strong>: TTclock @ <span style="color: #f50505;">46kb</span></p>
+<p><strong>Screen Magnifier</strong>: Fatbits @ <span style="color: #f50505;">32kb</span></p>
+<p><strong>File Rename</strong>: Rename files @ <span style="color: #f50505;">128kb</span></p>
+<p><strong>File Search</strong>: SearchMyFiles @ <span style="color: #f50505;">78kb</span></p>
+<p><strong>Desktop Spellcheck</strong>: TinySpell @ <span style="color: #f50505;">641kb</span></p>
+<p><strong>Sticky Notes</strong>: Pico Sticky Notes @ <span style="color: #f50505;">11kb</span></p>
+<p><strong>Font Viewer</strong>: Fonster @ <span style="color: #f50505;">3kb</span></p>
+<p>………………..</p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>aazard’s Personal Edited Versions of Tiny Application and Tools</title>
         <author>
