@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-04T22:53:44-05:00</updated>
+    <updated>2021-01-04T22:55:35-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,15 +17,15 @@
         <link href="https://aazard.github.io/minimal-gui-based-stable-application-for-given-task/"/>
         <id>https://aazard.github.io/minimal-gui-based-stable-application-for-given-task/</id>
 
-        <updated>2021-01-04T22:53:44-05:00</updated>
+        <updated>2021-01-04T22:55:35-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                <h2><span style="color: #001cf1;"><strong><u>Minimal GUI Based STABLE Application For Given Task<br>List That Works On Current Windows 10 64Bit In 2021</u></strong></span></h2>
+                <h2><span style="color: #001cf1;"><span style="text-decoration: underline;">Minimal GUI Based STABLE Application For Given Task</span><br>List That Works On Current Windows 10 64Bit In 2021</span></h2>
 <p> </p>
 <p><strong><span style="color: #e67e23;">This is a list of the “minimal” app needed for a given “task”, ie; working with docx files or editing an avi file. GUI based still working on Windows 10 64Bit in 2021</span></strong></p>
 <p> </p>
-<h2><span style="color: #001cf1;"><strong><u>Office tasks: </u></strong></span></h2>
+<h2><span style="text-decoration: underline;"><span style="color: #001cf1;"><strong>Office tasks: </strong></span></span></h2>
 <p>* Including basic “Office via Internet” tasks, like Web Browser, WYSIWYG Website &amp; HTML Editors, FTP &amp; HTTP server clients, and commonly used applications in an office environment<br>* Also included are “Basic Security” tools for file encryption/deletion, password/account info (etc.) storage, and commonly used applications in an office environment</p>
 <p><strong> </strong></p>
 <p><strong>Plain Text</strong>, <strong>With “Open/Save As” .txt</strong> <strong>Format</strong>: The Gun @ <span style="color: #f50505;">6kb</span></p>
