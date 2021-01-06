@@ -3,12 +3,29 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-05T19:30:14-05:00</updated>
+    <updated>2021-01-05T19:39:44-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
     <id>https://aazard.github.io</id>
 
+    <entry>
+        <title>The 2000mb Floppy Disk</title>
+        <author>
+            <name>aazard</name>
+        </author>
+        <link href="https://aazard.github.io/the-2000mb-floppy-disk/"/>
+        <id>https://aazard.github.io/the-2000mb-floppy-disk/</id>
+
+        <updated>2021-01-05T19:39:44-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p class="align-center"><img loading="lazy" src="https://pbs.twimg.com/media/DgAJdKJU0AAIxjg.jpg" data-is-external-image="true" ></p>
+<h2 class="align-center"><span style="color: #e67e23;"><strong>Multi Media Card (MMC) &amp; Secure Digital (SD) Card Compatible, Up To 2GB</strong></span></h2>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>aazard&#x27;s Freeware All Links</title>
         <author>

@@ -11,6 +11,19 @@
     },
     "items": [
         {
+            "id": "https://aazard.github.io/the-2000mb-floppy-disk/",
+            "url": "https://aazard.github.io/the-2000mb-floppy-disk/",
+            "title": "The 2000mb Floppy Disk",
+            "content_html": "<p class=\"align-center\"><img loading=\"lazy\" src=\"https://pbs.twimg.com/media/DgAJdKJU0AAIxjg.jpg\" data-is-external-image=\"true\" ></p>\n<h2 class=\"align-center\"><span style=\"color: #e67e23;\"><strong>Multi Media Card (MMC) &amp; Secure Digital (SD) Card Compatible, Up To 2GB</strong></span></h2>",
+            "author": {
+                "name": "aazard"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-01-05T19:39:44-05:00",
+            "date_modified": "2021-01-05T19:39:44-05:00"
+        },
+        {
             "id": "https://aazard.github.io/aazards-freeware-all-links/",
             "url": "https://aazard.github.io/aazards-freeware-all-links/",
             "title": "aazard&#x27;s Freeware All Links",
