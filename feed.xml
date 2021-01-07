@@ -3,28 +3,28 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-06T19:46:17-05:00</updated>
+    <updated>2021-01-06T19:49:14-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
     <id>https://aazard.github.io</id>
 
     <entry>
-        <title>Windows to Go for all versions of Windows 7</title>
+        <title>Windows to Go for all versions of Windows XP &amp; 7</title>
         <author>
             <name>aazard</name>
         </author>
         <link href="https://aazard.github.io/windows-to-go-for-all-versions-of-windows-7/"/>
         <id>https://aazard.github.io/windows-to-go-for-all-versions-of-windows-7/</id>
 
-        <updated>2021-01-06T19:46:17-05:00</updated>
+        <updated>2021-01-06T19:49:14-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                 <p>Windows to Go is a  feature allowing you to boot Windows directly from USB media without having to install it on to your internal hard disk. <strong>This feature also allows you to carry your installation of Windows on your USB media and use it on any computer</strong>.</p>
 <p>Unfortunately Microsoft has enabled this feature only for Windows 8 Enterprise Edition.</p>
-<p>However there is a way to install all versions on Windows 7 and Windows 8 to a USB Flash Drive or an external USB Hard Drive and boot Windows directly from it. This method uses a tool called <a href="https://www.msfn.org/board/topic/149612-winntsetup-v23/" target="_blank" rel="noopener">WinNTSetup</a> created by <a href="https://www.msfn.org/board/user/314753-jfx/" target="_blank" rel="noopener">JFX @ MSFN</a></p>
-<p>There are two ways of installing Windows 7/8 to USB Storage Media.</p>
+<p>However there is a way to install all versions on Windows XP and Windows 7 to a USB Flash Drive or an external USB Hard Drive and boot Windows directly from it. This method uses a tool called <a href="https://www.msfn.org/board/topic/149612-winntsetup-v23/" target="_blank" rel="noopener">WinNTSetup</a> created by <a href="https://www.msfn.org/board/user/314753-jfx/" target="_blank" rel="noopener">JFX @ MSFN</a></p>
+<p>There are two ways of installing Windows XP/7 to USB Storage Media.</p>
 <ol>
 <li>Format and create a minimum of 16GB partition on your USB Media and Install Windows in this partition.</li>
 <li>Create a Virtual Hard Disk (VHD File) in your USB media and install Windows in this Virtual Hard Disk.</li>
@@ -33,7 +33,7 @@
 <p>Requirements</p>
 <ul>
 <li>A <strong>USB Hard Disk</strong> with a minimum of 16GB free space. USB Flash Drives are not recommended.</li>
-<li>Windows 7 DVD or ISO. <a href="http://agnipulse.com/2009/11/windows-7-32-bit-and-64-bit-direct-download-links/" target="_blank" rel="noopener">Windows 7 installation ISOs</a> can downloaded directly from Microsoft. I suggest the "Windows 7 Thin PC" version.</li>
+<li>Windows 7 DVD or ISO. <a href="http://agnipulse.com/2009/11/windows-7-32-bit-and-64-bit-direct-download-links/" target="_blank" rel="noopener">Windows 7 installation ISOs</a> can downloaded directly from Microsoft. I suggest the "Windows 7 Thin PC" version. The Windows XP ISO's can also be found in the Microsoft downloads.</li>
 </ul>
 <p><strong>I highly recommend using the 32bit version of Windows as it is more portable, the "Thin PC" version even more so.</strong> 64 bit versions of Windows do not boot on 32bit computers. However 32 bit versions of Windows boot on both 32bit and 64 bit computers.</p>
 <h3>Enable Windows To Go in Windows 7</h3>
@@ -53,7 +53,7 @@
 <div class="text codecolorer"><span style="color: #f50505;">HKLM\System\CurrentControlSet\Control\PnP /f /v PollBootPartitionTimeout /t REG_DWORD /d 15000</span></div>
 </div>
 <p>So inorder to use these new registry settings and install Windows 7 to a USB Hard Disk or Flash Drive, you can use a Tool called WinNTSetup</p>
-<h3>Install and Boot Window 7/8 to USB Drive</h3>
+<h3>Install and Boot Window XP/7 to USB Drive</h3>
 <ol>
 <li>Insert your Windows installation DVD or mount Windows Installation ISO using <a href="http://agnipulse.com/2010/02/imdisk-virtual-disk-driver/" target="_blank" rel="noopener">ImDisk</a>.<br><a href="http://agnipulse.com/wp-content/uploads/2012/11/win7iso.png" rel="lightbox[946]" title="Windows 7 Installation DVD" class="cboxElement"><figure class="alignnone size-full wp-image-959"><img loading="lazy"  title="Windows 7 Installation DVD" src="http://agnipulse.com/wp-content/uploads/2012/11/win7iso.png" data-is-external-image="true"  sizes="(max-width: 367px) 100vw, 367px" srcset="http://agnipulse.com/wp-content/uploads/2012/11/win7iso.png 367w, http://agnipulse.com/wp-content/uploads/2012/11/win7iso-300x230.png 300w" alt="" width="367" height="282"></figure></a></li>
 <li>Download and extract <a href="https://www.msfn.org/board/topic/149612-winntsetup-v23/" target="_blank" rel="noopener">WinNTSetup2_x86_x64.zip</a>. Run WinNTSetup2_x86.exe as Administrator.<br><a href="http://agnipulse.com/wp-content/uploads/2012/11/RunWinntsetup.png" rel="lightbox[946]" title="Run Winntsetup" class="cboxElement"><figure class="alignnone size-full wp-image-957"><img loading="lazy"  title="Run Winntsetup" src="http://agnipulse.com/wp-content/uploads/2012/11/RunWinntsetup.png" data-is-external-image="true"  sizes="(max-width: 457px) 100vw, 457px" srcset="http://agnipulse.com/wp-content/uploads/2012/11/RunWinntsetup.png 457w, http://agnipulse.com/wp-content/uploads/2012/11/RunWinntsetup-300x83.png 300w" alt="" width="457" height="127"></figure></a></li>
@@ -66,7 +66,7 @@
 <li>It takes some time to install. After installation restart the computer and boot from your USB Hard Disk.</li>
 <li>Windows installation starts up and you have to complete all the installation steps.You will have to boot from your USB Hard Disk if the Windows Installation restarts the computer.</li>
 </ol>
-<h3 id="vhd">Install and Boot Windows 7/8 from VHD on USB Drive</h3>
+<h3 id="vhd">Install and Boot Windows XP/7 from VHD on USB Drive</h3>
 <p>In Step 3 in the above instructions you can choose to create a Virtual Hard Disk (VHD) on your USB Drive and install Windows to the VHD.</p>
 <ol>
 <li>Click on <strong>VHD</strong> – <strong>Create</strong></li>
@@ -75,12 +75,12 @@
 <li>The VHD will be created and mounted as <strong>Z</strong> drive.Enter this drive letter in <strong>Select location of the Installation drive</strong>.<a href="http://agnipulse.com/wp-content/uploads/2012/11/createvhd3.png" rel="lightbox[946]" title="createvhd3" class="cboxElement"><img loading="lazy" title="createvhd3" src="http://agnipulse.com/wp-content/uploads/2012/11/createvhd3.png" data-is-external-image="true"  alt="" width="532" height="328"></a></li>
 </ol>
 <h3>Important notes regarding installing and booting Windows 7 from USB Hard Disk</h3>
-<p>Installing and booting Windows 7 is not as easy as it is to do with Windows 8. This because Windows 7 does not officially support booting from USB. So the following points have to be kept in mind while installing and booting Windows 7 from a USB Hard Disk.</p>
+<p>Installing and booting Windows XP &amp; 7 is not as easy as it is to do with Windows 8. This because Windows 7 does not officially support booting from USB. So the following points have to be kept in mind while installing and booting Windows 7 from a USB Hard Disk.</p>
 <ul>
-<li>Windows 7 does not support USB 3.0 out of the box. Hence Windows 7 will have to be booted from a USB 2.0 port.</li>
-<li>Windows 7 does not create Pagefile.sys on the USB Hard Disk. If the computer that you are booting has an internal hard disk, then pagefile.sys is created on the internal hard disk. If it does not have an internal hard disk, then Windows will warn you that it cannot create a pagefile as it will not create a pagefile on a ‘removable’ disk. This problem can be overcome by using a <a href="http://agnipulse.com/2012/03/filter-drivers-removable-media-fixed-disk-windows/" target="_blank" rel="noopener">Filter Driver</a> like <a href="http://reboot.pro/topic/9461-page-file-in-usb-hard-disk/#entry86619" target="_blank" rel="noopener">DiskMOD</a> to force Windows to create pagefile.sys on a USB Hard Drive.</li>
+<li>Both Windows XP &amp; 7 does not support USB 3.0 out of the box. Hence Windows XP &amp; 7 will have to be booted from a USB 2.0 port.</li>
+<li>Both Windows XP &amp; 7 does not create Pagefile.sys on the USB Hard Disk. If the computer that you are booting has an internal hard disk, then pagefile.sys is created on the internal hard disk. If it does not have an internal hard disk, then Windows will warn you that it cannot create a pagefile as it will not create a pagefile on a ‘removable’ disk. This problem can be overcome by using a <a href="http://agnipulse.com/2012/03/filter-drivers-removable-media-fixed-disk-windows/" target="_blank" rel="noopener">Filter Driver</a> like <a href="http://reboot.pro/topic/9461-page-file-in-usb-hard-disk/#entry86619" target="_blank" rel="noopener">DiskMOD</a> to force Windows to create pagefile.sys on a USB Hard Drive.</li>
 <li>USB Flash Drives are very slow. It takes a long time to install and run Windows from a USB Flash Drive. I highly recommend using a USB Hard Disk.</li>
-<li>Windows 7 is not completely portable. You may have activation and driver problems when booting on different computers.</li>
+<li>Both Windows XP &amp; 7 are not completely portable. You may have activation and driver problems when booting on different computers.</li>
 </ul>
 <p>You can make Windows 7 more portable by using the bootable USB Driver stack from Windows Embedded Standard 7 with SP1.</p>
             ]]>
