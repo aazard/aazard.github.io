@@ -3,12 +3,38 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-06T21:26:47-05:00</updated>
+    <updated>2021-01-06T23:38:45-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
     <id>https://aazard.github.io</id>
 
+    <entry>
+        <title>&quot;Abandon-ware&quot; &amp; Digital Millennium Copyright Act (DMCA)</title>
+        <author>
+            <name>aazard</name>
+        </author>
+        <link href="https://aazard.github.io/abandon-ware-and-digital-millennium-copyright-act-dmca/"/>
+        <id>https://aazard.github.io/abandon-ware-and-digital-millennium-copyright-act-dmca/</id>
+
+        <updated>2021-01-06T23:38:45-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <h3 class="align-center"><span style="color: #001cf1;">Cited from the DMCA; Specifically: </span><br>"<span style="color: #f50505;">Everything here is 100% legal</span>"</h3>
+<p class="msg msg--highlight "><strong>November 2006, Library of Congress approved an exemption</strong></p>
+<h3 class="in-block"><span id="DMCA" class="mw-headline">DMCA</span></h3>
+<p>The Digital Millennium Copyright Act (DMCA) can be a problem for the preservation of old software as it prohibits required techniques. In October 2003, the US Congress passed 4 clauses to the DMCA which allow for reverse engineering software in case of preservation.</p>
+<blockquote class="templatequote">
+<p>"3. Computer programs and video games distributed in formats that have become obsolete and which require the original media or hardware as a condition of access. ...The register has concluded that to the extent that libraries and archives wish to make preservation copies of published software and videogames that were distributed in formats that are (either because the physical medium on which they were distributed is no longer in use or because the use of an obsolete operating system is required), such activity is a noninfringing use covered by section 108(c) of the Copyright Act."</p>
+<div class="templatequotecite">— <cite>Exemption to Prohibition on Circumvention of Copyright Protection Systems for Access Control Technologies<sup id="cite_ref-95" class="reference"></sup></cite></div>
+</blockquote>
+<p>In November 2006 the Library of Congress approved an exemption to the DMCA that permits the cracking of copy protection on software no longer being sold or supported by its copyright holder so that they can be archived and preserved <span style="text-decoration: underline;"><strong>without fear of retribution</strong></span>.<sup id="cite_ref-96" class="reference"></sup><sup id="cite_ref-97" class="reference"></sup></p>
+<h3 class="in-block">Although ALL aazard Freeware Repackages ARE 100% FREEWARE, some have "charity", "donated" or "public" serial keys (Etc.) provided directly from the source.</h3>
+<p>This protection extends to all users in any of the <a href="https://en.m.wikipedia.org/wiki/Berne_Convention_for_the_Protection_of_Literary_and_Artistic_Works" class="mw-redirect" title="Berne Convention for the Protection of Literary and Artistic Works">Berne Convention</a> signatory nations.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Windows to Go for all versions of Windows XP &amp; 7</title>
         <author>
@@ -17,7 +43,7 @@
         <link href="https://aazard.github.io/windows-to-go-for-all-versions-of-windows-7/"/>
         <id>https://aazard.github.io/windows-to-go-for-all-versions-of-windows-7/</id>
 
-        <updated>2021-01-06T21:26:47-05:00</updated>
+        <updated>2021-01-06T23:29:26-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -79,20 +105,16 @@
 <li>Enter the command “<strong>create partition primary</strong>” to create a main partition.</li>
 <li>Enter the command “<strong>list par</strong>” and select the newly created main partition with “<strong>sel par 1</strong>”.</li>
 <li>Activate the partition with the command “<strong>active</strong>”.</li>
-<li>Format the USB with the command “<strong>format fs=FAT32 label=“WINDOWSUSB” quick override</strong>” (in place of “WINDOWS USB” you can also choose another label, so long as it doesn’t contain any spaces or special characters. The drive will later be displayed under this name if you plug into a running Windows computer). Formatting may take a while. You can track its progress in the percentage bar.</li>
-<li>As soon as the process is finished, enter the command “<strong>assign</strong>” to automatically assign a drive letter (for example “G:”) to your USB.</li>
+<li>Format the USB with the command “<strong>format fs=NTFS quick override</strong>” (in place of “WINDOWS USB” you can also choose another label, so long as it doesn’t contain any spaces or special characters. The drive will later be displayed under this name if you plug into a running Windows computer). Formatting may take a while. You can track its progress in the percentage bar.</li>
+<li>As soon as the process is finished, enter the command “<strong>assign</strong>” to automatically assign a drive letter (for example “W:”) to your USB.</li>
 <li>Enter “<strong>exit</strong>” to close DiskPart, and then “<strong>exit</strong>” again to close the command prompt.</li>
 </ul>
 </div>
-<div class="aligncenter ce-gallery" data-ce-columns="1" data-ce-images="1">
-<div class="ce-outer">
-<div class="ce-inner">
-<div class="ce-row">
-<div class="ce-column"> </div>
-</div>
-</div>
-</div>
-</div>
+<p><img loading="lazy" src="https://www.ionos.ca/digitalguide/fileadmin/DigitalGuide/Screenshots_2018/EN-windows-create-boot-usb5.png" data-is-external-image="true"  alt="Command Prompt in the Windows search bar"></p>
+<p class="msg msg--info">Typing "cmd" in to the Start menu "Run" dialog lets you run "cmd" as Administrator via "right clicking" it</p>
+<div> </div>
+<div class="ce-bodytext"><img loading="lazy" src="https://www.ionos.ca/digitalguide/fileadmin/DigitalGuide/Screenshots_2018/EN-windows-create-boot-usb6.png" data-is-external-image="true"  alt="Command for the creation of a bootable USB drive in the Command Prompt"></div>
+<p class="msg msg--info">Visual example (note this system has a 1TB HDD. Disk 0, and a 8GB USB drive. Disk 1.</p>
 </div>
 </div>
 <div id="c127296">
@@ -101,23 +123,18 @@
 <div class="ce-outer">
 <div class="ce-inner">
 <div class="ce-row">
-<div class="ce-column"> </div>
+<p class="ce-column msg msg--highlight "><span style="text-decoration: underline;"><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; text-decoration: underline;">Note</strong></span><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">: When you start your PC for the first time, the portable Windows will need a bit more time to boot, since the hardware first has to be detected. While it’s being detected, Windows may also restart several times.</span></p>
 </div>
 </div>
 </div>
 </div>
-<div class="ce-bodytext"> </div>
 </div>
 </div>
-<div id="c127308"> </div>
 <div class="info-box orange">
 <div id="c127309">
-<div> </div>
-<div class="headline h2 blue title"><i class="fa fa-exclamation"></i><span style="text-decoration: underline;"><strong>Note</strong></span></div>
 <div class=" ce-textpic ce-center ce-above">
 <div class="ce-bodytext">
-<p>When you start your PC for the first time, the portable Windows will need a bit more time to boot, since the hardware first has to be detected. While it’s being detected, Windows may also restart several times.</p>
-<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">After a successful process, you still have to </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">set up your operating system on the USB drive</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">. </span></p>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">After a successful process, you still have to </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">set up your operating system on the USB drive</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">. You can install directly to the drive via the standard setup for embedded versions like XP's "POSREADY2009" &amp; 7's "Thin PC", other versions may require the use of tools such as <strong>WinNT Setup, WinToUSB, Etc.</strong></span></p>
 </div>
 </div>
 </div>
@@ -134,6 +151,7 @@
 <li>A <strong>USB Hard Disk</strong> with a minimum of 4GB free space, for XP's "POSREADY2009", OR 8GB free space, for 7's "Thin PC".</li>
 <li>USB 1.x Flash Drives are not recommended.</li>
 <li>A USB 2.0+ USB Flash drive or, better, External HDD/SDD (in a USB 2.0 port) is ideal</li>
+<li>An installation assist application such as  <a href="https://www.msfn.org/board/topic/149612-winntsetup-v23/" target="_blank" rel="noopener noreferrer">WinNTSetup2_x86_x64.zip</a> or <a href="https://www.easyuefi.com/wintousb/" target="_blank" rel="noopener noreferrer">WinToUSB</a></li>
 </ul>
 <p class="msg msg--highlight "><strong>Note</strong>: Windows XP/7 ISO. <a href="http://agnipulse.com/2009/11/windows-7-32-bit-and-64-bit-direct-download-links/" target="_blank" rel="noopener">Windows 7 installation ISOs</a> can downloaded directly from Microsoft. I suggest the "Windows 7 Thin PC" version. The Windows XP ISO's can also be found in the Microsoft downloads.</p>
 <p><strong>I highly recommend using the 32bit version of Windows as it is more portable</strong></p>

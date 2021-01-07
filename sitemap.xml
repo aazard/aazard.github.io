@@ -29,6 +29,10 @@
 </image:image>
 </url>
 <url>
+<loc>https://aazard.github.io/abandon-ware-and-digital-millennium-copyright-act-dmca/</loc>
+<lastmod>2021-01-06T23:38:45-05:00</lastmod>
+</url>
+<url>
 <loc>https://aazard.github.io/about-1680kb-floppies-or-dmf-distribution-media-format/</loc>
 <lastmod>2021-01-05T19:29:46-05:00</lastmod>
 <image:image>
@@ -78,7 +82,15 @@
 </url>
 <url>
 <loc>https://aazard.github.io/windows-to-go-for-all-versions-of-windows-7/</loc>
-<lastmod>2021-01-06T21:26:47-05:00</lastmod>
+<lastmod>2021-01-06T23:29:26-05:00</lastmod>
+<image:image>
+<image:loc>https://www.ionos.ca/digitalguide/fileadmin/DigitalGuide/Screenshots_2018/EN-windows-create-boot-usb5.png</image:loc>
+<image:title><![CDATA[Command Prompt in the Windows search bar]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://www.ionos.ca/digitalguide/fileadmin/DigitalGuide/Screenshots_2018/EN-windows-create-boot-usb6.png</image:loc>
+<image:title><![CDATA[Command for the creation of a bootable USB drive in the Command Prompt]]></image:title>
+</image:image>
 <image:image>
 <image:loc>http://agnipulse.com/wp-content/uploads/2012/11/win7iso.png</image:loc>
 <image:title><![CDATA[]]></image:title>
