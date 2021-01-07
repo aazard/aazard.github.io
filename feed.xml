@@ -3,7 +3,7 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-06T19:49:14-05:00</updated>
+    <updated>2021-01-06T20:07:42-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://aazard.github.io/windows-to-go-for-all-versions-of-windows-7/"/>
         <id>https://aazard.github.io/windows-to-go-for-all-versions-of-windows-7/</id>
 
-        <updated>2021-01-06T19:49:14-05:00</updated>
+        <updated>2021-01-06T20:07:42-05:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -35,7 +35,9 @@
 <li>A <strong>USB Hard Disk</strong> with a minimum of 16GB free space. USB Flash Drives are not recommended.</li>
 <li>Windows 7 DVD or ISO. <a href="http://agnipulse.com/2009/11/windows-7-32-bit-and-64-bit-direct-download-links/" target="_blank" rel="noopener">Windows 7 installation ISOs</a> can downloaded directly from Microsoft. I suggest the "Windows 7 Thin PC" version. The Windows XP ISO's can also be found in the Microsoft downloads.</li>
 </ul>
-<p><strong>I highly recommend using the 32bit version of Windows as it is more portable, the "Thin PC" version even more so.</strong> 64 bit versions of Windows do not boot on 32bit computers. However 32 bit versions of Windows boot on both 32bit and 64 bit computers.</p>
+<p><strong>I highly recommend using the 32bit version of Windows as it is more portable</strong></p>
+<p><strong>The "POSReady2009" (XP) &amp; "Thin PC" (7) version even more so portable, but both are 32Bit only. Both also tend to boot more reliably across systems then their standard counterparts.</strong></p>
+<p>64 bit versions of Windows do not boot on 32bit computers. However 32 bit versions of Windows boot on both 32bit and 64 bit computers.</p>
 <h3>Enable Windows To Go in Windows 7</h3>
 <p>With Windows 7 SP1, there is an easier way to install Windows 7 to a USB Hard Disk or USB Flash Drive.</p>
 <p>This was discovered by cdob at Reboot <a href="http://reboot.pro/topic/14186-usb-hdd-boot-and-windows-7-sp1/?p=127587" rel="nofollow">http://reboot.pro/topic/14186-usb-hdd-boot-and-windows-7-sp1/?p=127587</a></p>
@@ -82,7 +84,7 @@
 <li>USB Flash Drives are very slow. It takes a long time to install and run Windows from a USB Flash Drive. I highly recommend using a USB Hard Disk.</li>
 <li>Both Windows XP &amp; 7 are not completely portable. You may have activation and driver problems when booting on different computers.</li>
 </ul>
-<p>You can make Windows 7 more portable by using the bootable USB Driver stack from Windows Embedded Standard 7 with SP1.</p>
+<p>You can make Windows 7 more portable by using the bootable USB Driver stack from Windows Embedded Standard 7 with SP1. POSReady2009 &amp; Thin PC versions tend to have better reliability booting via USB than their standard counterparts, as they have "embedded" use in mind.</p>
             ]]>
         </content>
     </entry>
