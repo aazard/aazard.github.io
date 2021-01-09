@@ -3,12 +3,86 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-07T00:00:44-05:00</updated>
+    <updated>2021-01-08T22:10:17-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
     <id>https://aazard.github.io</id>
 
+    <entry>
+        <title>Installing XP POSReady 2009 From USB Flash Drive - To USB Flash Drive</title>
+        <author>
+            <name>aazard</name>
+        </author>
+        <link href="https://aazard.github.io/installing-xp-posready-2009-from-usb-flash-drive-to-usb-flash-drive/"/>
+        <id>https://aazard.github.io/installing-xp-posready-2009-from-usb-flash-drive-to-usb-flash-drive/</id>
+
+        <updated>2021-01-08T22:10:17-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <h2 id="installing-posready-to-a-usb-flash-drive" class="heading-anchor">Installing POSReady to a USB Flash Drive</h2>
+<p>You can install POSReady to a USB flash drive, which makes it possible to run POSReady from the drive. There are some requirements that you should be aware of when you install POSReady to a USB flash drive:</p>
+<ul>
+<li>You cannot install to USB flash drive partitions that are protected with a password.</li>
+<li>The target USB flash drive must be assigned the drive letter C. If the drive letter is changed, unexpected application behavior may result.</li>
+<li>Each computer manages USB devices differently. If you are installing POSReady to a USB flash drive from another USB flash drive, you may have to disconnect and reconnect the drives to make sure that your computer restarts from the correct drive. More information about this scenario is included in the following procedure.</li>
+</ul>
+<h2 id="how-to-install-posready-from-a-usb-flash-drive-to-a-usb-flash-drive" class="heading-anchor"><a class="anchor-link docon docon-link" href="https://docs.microsoft.com/en-us/previous-versions/windows/embedded/dd458849(v=winembedded.20)?redirectedfrom=MSDN#how-to-install-posready-from-a-usb-flash-drive-to-a-usb-flash-drive" aria-labelledby="how-to-install-posready-from-a-usb-flash-drive-to-a-usb-flash-drive"></a>How to install POSReady from a USB flash drive to a USB flash drive</h2>
+<ol>
+<li>
+<p>Insert the source USB flash drive that contains the POSReady Setup files, and then insert your destination USB flash drive.</p>
+</li>
+<li>
+<p>Start the computer and make sure that the BIOS starts up from the source USB flash drive instead of another drive, such as the hard disk drive, optical drive, or the destination USB flash drive. For more information about startup order, see <a href="https://docs.microsoft.com/en-us/previous-versions/windows/embedded/dd458834(v=winembedded.20)" data-linktype="relative-path">Configuring Your Computer to Detect a USB Flash Drive</a>. Windows PE 2005 environment starts with the message <strong>Starting Installation Environment…</strong> and will progress to a Windows XP loading screen.</p>
+</li>
+<li>
+<p>POSReady Setup starts. You can continue with an <a href="https://docs.microsoft.com/en-us/previous-versions/windows/embedded/dd458819(v=winembedded.20)" data-linktype="relative-path">Interactive Installation</a> or an <a href="https://docs.microsoft.com/en-us/previous-versions/windows/embedded/dd458832(v=winembedded.20)" data-linktype="relative-path">Unattended Installation</a>. On the <strong>Storage Configuration</strong> page, make sure that you select the partition on the destination USB flash drive. As soon as installation is complete, your computer will automatically restart.</p>
+</li>
+<li>
+<p><strong>Immediately after your computer restarts, disconnect the source USB flash drive from the computer to prevent restarting from the drive</strong>. POSReady will automatically start from the destination USB flash drive and start the First Boot Agent (FBA).</p>
+</li>
+<li>
+<p><strong>When FBA starts, insert the source USB flash drive again</strong>. FBA requires additional POSReady Setup files on the source USB flash drive to complete the installation on the destination USB flash drive. FBA will continue automatically, and will restart your computer when installation is complete.</p>
+</li>
+<li>
+<p><strong>Immediately after your computer restarts for the second time, you must disconnect the source USB flash drive from the computer to prevent starting up from the drive</strong>. Your computer will restart from the destination USB flash drive and a Microsoft Windows XP loading screen will appear. POSReady will start for the first time.</p>
+</li>
+</ol>
+<h2 id="installing-mass-storage-drivers-from-a-usb-flash-drive" class="heading-anchor"><a class="anchor-link docon docon-link" href="https://docs.microsoft.com/en-us/previous-versions/windows/embedded/dd458849(v=winembedded.20)?redirectedfrom=MSDN#installing-mass-storage-drivers-from-a-usb-flash-drive" aria-labelledby="installing-mass-storage-drivers-from-a-usb-flash-drive"></a>Installing Mass Storage Drivers from a USB Flash Drive</h2>
+<p>In POSReady you can install mass storage drivers from a USB flash drive. After completing the steps below your mass storage drivers will be available for use during setup.</p>
+<div class="alert is-info">
+<p class="alert-title"> Note</p>
+<p>Installing mass storage drivers from a USB flash drive is only supported when you run setup from the same USB flash drive. If you choose to launch setup using the product installation disk, you will not be able to retrieve mass storage drivers from a USB drive.</p>
+</div>
+<h2 id="how-to-install-mass-storage-drivers-from-a-usb-flash-drive" class="heading-anchor"><a class="anchor-link docon docon-link" href="https://docs.microsoft.com/en-us/previous-versions/windows/embedded/dd458849(v=winembedded.20)?redirectedfrom=MSDN#how-to-install-mass-storage-drivers-from-a-usb-flash-drive" aria-labelledby="how-to-install-mass-storage-drivers-from-a-usb-flash-drive"></a>How to install mass storage drivers from a USB flash drive</h2>
+<ol>
+<li>
+<p>Connect your USB flash drive to a USB port and insert the POSReady installation disc in your computer. The <strong>POSReady Companion Setup</strong> is displayed.</p>
+</li>
+<li>
+<p>Choose <strong>Create USB Flash Drive Install</strong>. The <strong>Install from USB Flash Drive</strong> page is displayed.</p>
+</li>
+<li>
+<p>Choose your desired USB flash drive, languages, and applications.</p>
+<div class="alert is-info">
+<p class="alert-title"> Note</p>
+<p><strong>All data on your destination USB flash drive will be erased.</strong></p>
+</div>
+</li>
+<li>
+<p>Choose <strong>Install</strong>. Your desired files will be copied on the USB flash drive and the drive can now be used as startup POSReady installation media.</p>
+</li>
+<li>
+<p>In the root of the USB media, create a new folder named <strong>Drivers</strong>.</p>
+</li>
+<li>
+<p>Copy your mass storage drivers to the <strong>Drivers</strong> directory.</p>
+</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>&quot;Abandon-ware&quot; &amp; Digital Millennium Copyright Act (DMCA)</title>
         <author>
@@ -1332,583 +1406,6 @@
 </tbody>
 </table>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>DMF Floppy Office v5.0.1: aazard&#x27;s 2021 Edition</title>
-        <author>
-            <name>aazard</name>
-        </author>
-        <link href="https://aazard.github.io/dmf-floppy-office/"/>
-        <id>https://aazard.github.io/dmf-floppy-office/</id>
-            <category term="aazards Articles"/>
-
-        <updated>2021-01-05T19:30:14-05:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://aazard.github.io/media/posts/1/Flashpath_and_MMC.jpg" alt="" />
-                <h1><strong><u>DMF-Floppy-Office</u></strong></h1>
-<p><a href="#INTERNAL_LINK#/post/NaN" title="https://github.com/aazard/DMF-Floppy-Office" target="_blank" rel="noopener noreferrer">LINK TO GITHUB RELEASE</a></p>
-<p><strong>Plain URL to Release</strong>: https://github.com/aazard/DMF-Floppy-Office</p>
-<p><strong>DMF Floppy Office – A Repackaged Toolset, By Jeff Witty, AKA: aazard.</strong></p>
-<p><strong>DMF Floppy Office v5.0.1: A Reasonable Office Suite, of 23 tools, Fitting Inside 1680kb!</strong></p>
-<ul>
-<li><strong>v5.0.1 is 1st release, named v5.x.x in homage to the last version of Xtort's FloppyOffice which was v4.0.</strong></li>
-</ul>
-<hr>
-<p><strong><span style="text-decoration: underline;"><span style="color: #236fa1;">Dedicated to my father and my son. <em>May I see you both again</em>.</span></span></strong></p>
-<figure class="post__image"><img loading="lazy"  src="https://aazard.github.io/media/posts/1/51UgRY4foHL.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://aazard.github.io/media/posts/1/responsive/51UgRY4foHL-xs.jpg 300w ,https://aazard.github.io/media/posts/1/responsive/51UgRY4foHL-sm.jpg 480w ,https://aazard.github.io/media/posts/1/responsive/51UgRY4foHL-md.jpg 768w ,https://aazard.github.io/media/posts/1/responsive/51UgRY4foHL-lg.jpg 1024w ,https://aazard.github.io/media/posts/1/responsive/51UgRY4foHL-xl.jpg 1360w ,https://aazard.github.io/media/posts/1/responsive/51UgRY4foHL-2xl.jpg 1600w"  alt="" width="1000" height="1500"></figure>
-<p><strong>An update of Xtort.net's FloppyOffice v4.0, which is now defunct.</strong></p>
-<p> </p>
-<p><strong><em><u>Full toolset size zipped, All are zipped but the 100K Zipper, is: 1677kb</u></em></strong>.</p>
-<hr>
-<p><strong><u>What Can You Do? Toolkit includes 23 Tools</u></strong>:</p>
-<p> </p>
-<ul>
-<li><strong>Pure GUI toolkit, no need for CMD prompt use.</strong></li>
-<li><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">Manage your RAM to try freeing 64mb, if possible.</strong></li>
-<li><strong>Open and edit doc files, save as rtf with image support</strong></li>
-<li><strong> </strong><strong>Open and edit xlsx, or lesser spreadsheet file types.</strong></li>
-<li><strong> </strong><strong>Open and edit csv files and create databases.</strong></li>
-<li><strong> </strong><strong>Open and edit any plain text file types. </strong></li>
-<li><strong> </strong><strong>Send files with an FTP Client.</strong></li>
-<li><strong> </strong><strong>Host websites or files with an HTTP server.</strong></li>
-<li><strong> </strong><strong>Zip and Unzip files with SFX support.</strong></li>
-<li><strong> </strong><strong>Create PDF files from plain text.</strong></li>
-<li><strong> </strong><strong>Create vector graphics drawings and diagrams.</strong></li>
-<li><strong> </strong><strong>Copy files fast and easily, even damaged files.</strong></li>
-<li><strong> </strong><strong>Securely delete files.</strong></li>
-<li><strong> </strong><strong>Send and receive emails, with alerts and attachments supported.</strong></li>
-<li><strong> </strong><strong>Scan and view the sizes of folders and their contents with detailed reports.</strong></li>
-<li><strong> </strong><strong>Search for files with advanced search input.</strong></li>
-<li><strong> </strong><strong>Generate unique secure passwords.</strong></li>
-<li><strong> </strong><strong>Encrypt and decrypt files.</strong></li>
-<li><strong> </strong><strong>Rename files, with bulk and wildcard features.</strong></li>
-<li><strong> </strong><strong>Create and restore compressed backups.</strong></li>
-<li><strong> </strong><strong>Show and recover hidden passwords.</strong></li>
-<li><strong> </strong><strong>Calendar that supports notes and schedules. </strong></li>
-</ul>
-<hr>
-<p><strong>If you need to, please google <em>"How to format a floppy to 1.68mb DMF?".</em></strong></p>
-<p><span style="color: #f50505;"><strong>USB versions of this toolkit are hosted  on my Github and websites.</strong></span></p>
-<p><strong>Dated</strong>:</p>
-<p>December the 28 of 2020.</p>
-<p><strong>Licence</strong>:</p>
-<p>CC 4.0 By SA.</p>
-<ul>
-<li><strong>Unrestricted use and redistrbuitution premitted and suggested! With credits as per licence, if you remember.</strong></li>
-</ul>
-<p> </p>
-<hr>
-<p><strong>Use</strong>:</p>
-<ol>
-<li>Use the included 100K Zipper to unzip toolset to target PC or Media, on "root" of a drive.</li>
-</ol>
-<ul>
-<li>Disk space required: Aprox 1900kb, or 1.85mb.</li>
-</ul>
-<ol start="2">
-<li>Running desire app, from folder on target PC/Media, and any additional required files will be created.</li>
-</ol>
-<ul>
-<li><strong><u>Thats it. </u></strong></li>
-</ul>
-<p> </p>
-<p><strong>When complete/cleanup:</strong></p>
-<ol start="3">
-<li>Use 100K Zipper to zip any files you wish to save.</li>
-<li>Use Mailpeek to send to yourself.</li>
-<li>Copy dsdel to desktop. Use dsdel to delete the DMF Floppy Office folder. Then delete dsdel from desktop.</li>
-</ol>
-<hr>
-<p><strong>Document info</strong>:</p>
-<p>FoldersReport produced HTML report edited and saved as plain text doc, with TheGun,  6kb plain text editor.</p>
-<p><strong>Description</strong>:</p>
-<p>DMF Floppy Office, an "Office Suite" designed to fit on a DMF formatted 3.5" 2HD floppy diskette.</p>
-<ul>
-<li>That being a 1680kb windows formatted 2HD 3.5" floppy diskette.</li>
-</ul>
-<p>My goal was to extend, improve and update the former the FloppyOffice v4.0 package, from 2003, to a more “full featured” toolkit, while retaining the “Fully Portable” packaging.</p>
-<p>Using “Small is beautiful”, with a "Plus the kitchen sink" mindset, design philosophy; that being: attempt to be as inclusive as possible, being respectful to disk space and resource use.</p>
-<ul>
-<li>The original FloppyOffice v4.0 package, created by Xtort.net, was a small, portable productivity software suite which offers a collection of unique standalone free software applications.</li>
-<li>FloppyOffice v4.0, the last release, was last updated, in its floppy version, in 2004. Its authors website has been offline from atleast mid-2016.</li>
-</ul>
-<p>If you find yourself working on different "older" machines and need portable software you can access, hassle-free, from any computer's 3.5" floppy drive, then this is the package for you.</p>
-<p><strong>Systems Supported</strong>:</p>
-<ul>
-<li><strong>No Java or Net Framework needed.</strong></li>
-</ul>
-<p><strong>Use Media</strong>:</p>
-<ul>
-<li>Min: Internal or external 3.5" PC floppy diskette drive.</li>
-<li>Suggested: If possible, one of my USB versions of this toolkit.</li>
-</ul>
-<p><strong>Bit level</strong>:</p>
-<ul>
-<li>Min: 32bit. 64bit is fully supported by all tools. Some may require XP compatibility mode under 64bit windows Vista+.</li>
-</ul>
-<p><strong>CPU</strong>:</p>
-<ul>
-<li>Min: Intel P55C 120mhz or AMD K6 233mhz with mmx CPU.</li>
-<li>Suggested: 300mhz+ 32bit CPU, with mmx, or equilvent.</li>
-</ul>
-<p><strong>Ram</strong>:</p>
-<ul>
-<li>Min: Under Windows 2000/FLPC, 64mb. Windows Vista+, 512mb.</li>
-<li>Suggested: 1024mb or more.</li>
-</ul>
-<p><strong>Video memory</strong>:</p>
-<ul>
-<li>Min: Any amount present on a video adapter supportting Windows 95 should do.</li>
-<li>Suggested: 8mb, shared, or more.</li>
-</ul>
-<p><strong>Disk space</strong>:</p>
-<ul>
-<li>Min: Aprox 1900kb, or 1.85mb.</li>
-</ul>
-<p><strong>Monitor</strong>:</p>
-<ul>
-<li>Min: 640x480 VGA colour.</li>
-<li>Suggested: 800x600+ with as many color your system supports.</li>
-</ul>
-<p><strong>OS's</strong>:</p>
-<ul>
-<li>The last patch versions of Windows 2000 and Windows Fundamentals For Legacy PC's, are the minimun supported OS's, forward, to Windows 10. With both 32 and 64bit users supported.</li>
-<li>That said, many tools will work on Windows 9x (Windows 95 to ME) and NT3.x/NT4.0, but the package is designed for Win32, or 32bit, NT5+.</li>
-</ul>
-<p><strong><u>Tool and file size list:</u></strong></p>
-<table>
-<tbody>
-<tr>
-<td width="250">
-<p><strong>Folder </strong></p>
-</td>
-<td width="106">
-<p><strong>Size Of Files </strong></p>
-</td>
-<td width="115">
-<p><strong>Size On Disk </strong></p>
-</td>
-<td width="48">
-<p><strong>Files</strong></p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> DMF Floppy Office; Size unzipped</p>
-</td>
-<td width="106">
-<p> 1,754 KB</p>
-</td>
-<td width="115">
-<p> 1,804 KB</p>
-</td>
-<td width="48">
-<p> 24</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> 100k zipper v1.21</p>
-</td>
-<td width="106">
-<p> 71 KB</p>
-</td>
-<td width="115">
-<p> 72 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> AntMem v13- Try to Free 64mb</p>
-</td>
-<td width="106">
-<p> 0 KB</p>
-</td>
-<td width="115">
-<p> 4 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> Atlantis Nova</p>
-</td>
-<td width="106">
-<p> 421 KB</p>
-</td>
-<td width="115">
-<p> 424 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> CSVboard v1.1</p>
-</td>
-<td width="106">
-<p> 71 KB</p>
-</td>
-<td width="115">
-<p> 72 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> dsdel</p>
-</td>
-<td width="106">
-<p> 7 KB</p>
-</td>
-<td width="115">
-<p> 8 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> Encopy5</p>
-</td>
-<td width="106">
-<p> 22 KB</p>
-</td>
-<td width="115">
-<p> 24 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> Eve</p>
-</td>
-<td width="106">
-<p> 73 KB</p>
-</td>
-<td width="115">
-<p> 76 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> FoldersReport</p>
-</td>
-<td width="106">
-<p> 21 KB</p>
-</td>
-<td width="115">
-<p> 24 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> mailpeek 0.93</p>
-</td>
-<td width="106">
-<p> 67 KB</p>
-</td>
-<td width="115">
-<p> 72 KB</p>
-</td>
-<td width="48">
-<p> 2</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> mempad</p>
-</td>
-<td width="106">
-<p> 80 KB</p>
-</td>
-<td width="115">
-<p> 84 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> mereo-1.9.4-bin</p>
-</td>
-<td width="106">
-<p> 33 KB</p>
-</td>
-<td width="115">
-<p> 36 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> MICROFTP</p>
-</td>
-<td width="106">
-<p> 96 KB</p>
-</td>
-<td width="115">
-<p> 100 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> Password Generator</p>
-</td>
-<td width="106">
-<p> 4 KB</p>
-</td>
-<td width="115">
-<p> 8 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> PDFproducer</p>
-</td>
-<td width="106">
-<p> 21 KB</p>
-</td>
-<td width="115">
-<p> 24 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> renamefiles_v2.42_us</p>
-</td>
-<td width="106">
-<p> 128 KB</p>
-</td>
-<td width="115">
-<p> 128 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> searchmyfiles</p>
-</td>
-<td width="106">
-<p> 75 KB</p>
-</td>
-<td width="115">
-<p> 76 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> ShackUp</p>
-</td>
-<td width="106">
-<p> 118 KB</p>
-</td>
-<td width="115">
-<p> 120 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> Spread32</p>
-</td>
-<td width="106">
-<p> 350 KB</p>
-</td>
-<td width="115">
-<p> 352 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> surecrypt</p>
-</td>
-<td width="106">
-<p> 9 KB</p>
-</td>
-<td width="115">
-<p> 12 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> TheGun</p>
-</td>
-<td width="106">
-<p> 6 KB</p>
-</td>
-<td width="115">
-<p> 8 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> Xcalday Calendar</p>
-</td>
-<td width="106">
-<p> 62 KB</p>
-</td>
-<td width="115">
-<p> 64 KB</p>
-</td>
-<td width="48">
-<p> 1</p>
-</td>
-</tr>
-<tr>
-<td width="250">
-<p> Xpass</p>
-</td>
-<td width="106">
-<p> 13 KB</p>
-</td>
-<td width="115">
-<p> 16 KB</p>
-</td>
-<td width="48">
-<p> 2</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong><u>DMF Floppy Office; unzipped   size 1,754 KB or 1,804 KB on disk, containing 24 files. All tools/apps GUI driven</u></strong></p>
-<p><strong>100K Zipper v1.21: </strong></p>
-<ul>
-<li>Zip/Unzipper, with SFX ability. V1.21 amd 1.25 are bug free, 1.21 is smaller missing a win98se fix.</li>
-</ul>
-<p><strong>AntMem v13- Try to Free 64mb:</strong></p>
-<ul>
-<li>Ram Cleaner set to free 64mb</li>
-</ul>
-<p><strong>Atlantis Nova: </strong></p>
-<ul>
-<li>RTF editor, open .doc, add images</li>
-</ul>
-<p><strong>CSVboard v1.1: </strong></p>
-<ul>
-<li>CSV editor with database ability</li>
-</ul>
-<p><strong>Dsdel: </strong></p>
-<ul>
-<li>Secure File deletion tool</li>
-</ul>
-<p><strong>Encopy5: </strong></p>
-<ul>
-<li>File Copy, even damaged files</li>
-</ul>
-<p><strong>Eve:</strong></p>
-<ul>
-<li>Vector Diagram creation and drawing tool</li>
-</ul>
-<p><strong>FoldersReport: </strong></p>
-<ul>
-<li>Folder size report tool</li>
-</ul>
-<p><strong>MailPeek v0.93: </strong></p>
-<ul>
-<li>Email client with alert, attachments and address book support.</li>
-</ul>
-<p><strong>MemPad</strong>:</p>
-<ul>
-<li>Plain text tree format outliner</li>
-</ul>
-<p><strong>Mereo v1.9.4</strong>:</p>
-<ul>
-<li>HTTP Server</li>
-</ul>
-<p><strong>MICROFTP</strong>:</p>
-<ul>
-<li>FTP client</li>
-</ul>
-<p><strong>Password Generator</strong>:</p>
-<ul>
-<li>A secure password generation tool</li>
-</ul>
-<p><strong>PDFproducer</strong>:</p>
-<ul>
-<li>Make plain text in to a pdf</li>
-</ul>
-<p><strong>Renamefiles v2.42</strong>:</p>
-<ul>
-<li>File renaming, many features</li>
-</ul>
-<p><strong>SearchMyFiles</strong>:</p>
-<ul>
-<li>Advanced file search</li>
-</ul>
-<p><strong>ShackUp</strong>:</p>
-<ul>
-<li>Backup and restore tool with compression</li>
-</ul>
-<p><strong>Spread32</strong>:</p>
-<ul>
-<li>Spreadsheets with .xlsx ability</li>
-</ul>
-<p><strong>SureCrypt</strong>:</p>
-<ul>
-<li>Encrypt and Decrypt file</li>
-</ul>
-<p><strong>TheGun</strong>:</p>
-<ul>
-<li>Plain text editor, saves as any plain text format</li>
-</ul>
-<p><strong>Xcalday Calendar</strong>:</p>
-<ul>
-<li>Calendar with scheduler and notes</li>
-</ul>
-<p><strong>Xpass</strong>:</p>
-<ul>
-<li>Hidden password recovery</li>
-</ul>
             ]]>
         </content>
     </entry>
