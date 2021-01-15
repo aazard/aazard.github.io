@@ -3,12 +3,505 @@
     <title>Tiny Freeware Repacked - By: aazard, AKA Jeff Witty</title>
     <link href="https://aazard.github.io/feed.xml" rel="self" />
     <link href="https://aazard.github.io" />
-    <updated>2021-01-08T22:20:47-05:00</updated>
+    <updated>2021-01-15T13:58:46-05:00</updated>
     <author>
         <name>aazard</name>
     </author>
     <id>https://aazard.github.io</id>
 
+    <entry>
+        <title>Windows NT 4.0 - 2021 Installation Reference</title>
+        <author>
+            <name>aazard</name>
+        </author>
+        <link href="https://aazard.github.io/windows-nt-40-2021-installation-reference/"/>
+        <id>https://aazard.github.io/windows-nt-40-2021-installation-reference/</id>
+
+        <updated>2021-01-15T13:58:46-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <table>
+<tbody>
+<tr>
+<td valign="middle">
+<h2><strong>Summary</strong></h2>
+<p> </p>
+<p>This is the update to an article I have been using from the EARLY 2000's, which went "dead" in about 2006/2007.</p>
+<p>I have modified the article in minor ways to keep it "current".</p>
+<p class="msg msg--info">This process will work on supported hardware or a VM.</p>
+<p>Microsoft discontinued support for Windows NT Workstation 4.0 as of January 1, 2021.</p>
+<p>Microsoft support for Windows NT Server 4.0 — including Standard, Enterprise Edition, and Terminal Server Edition — ended Dec. 2004. This means that Microsoft will no longer provide nonsecurity hot fixes for Windows NT Server 4.0.</p>
+<p>Microsoft provided online support forums until Jan. 2005.</p>
+<p class="msg msg--warning">This guide ASSUMES the use of a NT4.0 SP4 ISO for install</p>
+<p> </p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<h3><strong> Hardware Qualification (<span style="text-decoration: underline;"><em><span style="color: #e03e2d; text-decoration: underline;">old/unneeded</span></em></span>)</strong></h3>
+<p class="msg msg--highlight "><span style="text-decoration: line-through;">1.   Qualify your hardware:</span></p>
+<p class="msg msg--highlight "><span style="text-decoration: line-through;">2.   Insert a blank diskette.</span></p>
+<p class="msg msg--highlight "><span style="text-decoration: line-through;"><strong>3.   </strong>Execute <i>cd-rom_drive</i><strong>:\Support\Hqtool\Makedisk.bat</strong>  </span><br><span style="text-decoration: line-through;">This is the same as<strong> FD144 a:</strong></span></p>
+<p class="msg msg--highlight "><span style="text-decoration: line-through;">4.   Reboot from the diskette</span></p>
+<p class="msg msg--highlight "><span style="text-decoration: line-through;">5.   Run <strong>NTHQ</strong> from the diskette.</span></p>
+<p class="msg msg--highlight "><span style="text-decoration: line-through;">6.   Make sure that the hardware components listed is on the HCL (Hardware Compatibility List).</span></p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<h3><strong> Preparations</strong></h3>
+<p>1.   To prepare Hard Disks and other hardware devices:</p>
+<p>2.   Slots, IRQ and DMA availability limits</p>
+<p>3.   Domain name &amp; Work Station names.</p>
+<p>4.   Download<strong> Disk Format Tools, updated NTFS/HIMEM</strong></p>
+<p>5.   Format hard disk by executing, from command-line, a<strong> Disk Format Tools</strong> from a diskette that <span style="text-decoration: underline;"><strong><span style="color: #e03e2d; text-decoration: underline;">SUPPORTS CD Drives &amp; NTFS!</span></strong></span></p>
+<p class="msg msg--info"><span style="text-decoration: underline; color: #e03e2d;"><strong>IF NEEDED</strong></span>: <strong>Disk Format Tools</strong>, can converts NTFS TO FAT32 TO FAT16 (Any TO Any).</p>
+<p class="msg msg--highlight ">The partition size that NTFS (NT File System) supports (<span style="text-decoration: underline;"><em><strong>as implemented in Windows NT 4.0</strong></em></span>) is very large, on the order of 16 terabytes. FAT and HPFS partitions (used in previous versions of NT, as well as in Windows 95 and 98)<span style="color: #e03e2d;"> are, "originally", limited to 4 gigabytes (GB)</span>.<br><br>When installing Windows NT 4.0 on Intel-based computers, you cannot create a bootable partition greater than 4GB, because NT has to create the partition as a FAT volume before converting it to NTFS. <span style="text-decoration: underline; color: #e03e2d;"><strong>There is a workaround</strong></span> which involves partitioning and formatting the drive on a computer with NT installed on a different drive. This will allow the creation of an NTFS partition of up to <span style="color: #e03e2d;">7.8GB</span> on the new drive, which can be made <span style="color: #e03e2d;">bootable </span>when you install NT.<br><br><strong>If a partition does not have to be bootable, you can create much larger partitions, up to max format support under NT 4.0, using the Partition Manager.</strong><br><br>For more information on disk partition sizes, see articles 119497 and 114841 in Microsoft's knowledge base. </p>
+<ul>
+<li><span style="text-decoration: underline; color: #236fa1;"><strong><span>One 7.8GB Partition</span></strong></span> &amp; Up to 3 additional Primary partitions (each with Max supported Partition size )</li>
+<li><em><span style="text-decoration: underline;">Additionally</span></em>, OTHER THAN BOOT ON PARTITION, per "primary partition" you may use "Extended partitions" (Supported: up to 4 drives, 4 partitions per drive, and 2x drive letters)</li>
+</ul>
+<p>6.   <span style="text-decoration: underline; color: #236fa1;"><strong>Review THEN</strong></span> <strong>Commit changes</strong> before formatting.</p>
+<p>7.   If use<strong> removable media</strong> (portable drives such as Zip/SD/USB disks), create alternate<strong> hardware sets</strong> NTFS volumes require reboot after mounting.</p>
+<p>8.   Select C: as the<strong> boot-up system</strong> disk.</p>
+</td>
+<td valign="middle">
+<p> </p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+<p>The<a href="http://web66.coled.umn.edu/WinNT/Default.html"> Web66</a><a href="http://web66.coled.umn.edu/WinNT/CookBook/Default.html"> Windows NT Server Cookbook</a> by Stephen E. Collins at the University of Minnesota.</p>
+<p><a href="http://www.wilsonmar.com/1pconfig.htm"> Prepare PC Hardware</a></p>
+<p><a href="http://www.wilsonmar.com/1mskeys.htm"> Keyboard Shortcuts</a></p>
+<p><a href="http://www.ntmag.com/">Windows 2000 Magazine</a><u><br> </u></p>
+<p><a href="http://www.bhs.com/">Beverly Hills Software</a>, the NT Resource.<br> </p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<h3><strong> Run Setup</strong></h3>
+<p>1.   Create 3<strong> NT Setup</strong> boot diskettes from the CDROM:</p>
+<ul>
+<li>From a Windows NT computer: x:\I386\winnt /ox</li>
+</ul>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    From a Windows 9x computer: x:\I386\winnt32 /ox</p>
+<p>2.   To save setup time, copy <strong>Server</strong> setup files to <strong>I386SERV</strong> (or Ppc or Alpha or MIPS) directory on the C: disk. copy <strong>Work Station</strong> setup files to <strong>I386WORK</strong></p>
+<p class="msg--highlight msg msg--info">OPTIONALLY 3.   For unattended setup:</p>
+<ul>
+<li>Create an<strong> /U</strong> unattend Answer file for<strong> all users</strong> using the<strong> Server CD:\Support\Deptools\I386\Setupmgr</strong> program.</li>
+<li>Create a<strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;"> /UDF:ID[,database_filename]</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> Uniqueness Database File containing [Unique:Ids] to specify individual installation runs.</span></li>
+</ul>
+<p class="msg msg--info">4.   Execute setup program<strong> WINNT32</strong> to upgrade from version 3.51<br>Execute setup program<strong> WINNT</strong> /f /b from Server or Workstation CD</p>
+<ul>
+<li>Phase 0 (internally running limited version of NT for setup)</li>
+</ul>
+<p class="msg msg--info">1.   Press "N" to install rather than Enter for Upgrade.</p>
+<p>2.   Partition to install NT (USE "your premade "WORK-AROUND" 7.8GB)</p>
+<p>3.   File system (Leave it as NTFS partition, <span style="text-decoration: underline; color: #e03e2d;"><strong>DO NOT FORMAT IT AGAIN</strong></span>)</p>
+<p>4.   Use Location<strong> WINNT</strong> for Server,<strong> WINTWS</strong> for Workstation,<strong> WINIIS</strong> for IIS.</p>
+<ul>
+<li>Setup Wizard begins.</li>
+</ul>
+<p>1.   ) Get information</p>
+<p>1.   Installation type (<strong>Workstation </strong>or Server)</p>
+<p>2.   User<strong> Name </strong>. Organization can contain 255 characters. This creates an unmovable SID (Security IDentifier) which uniquely identifies the domain</p>
+<p>3.   Licensing Mode per Server for 10 concurrent connections.</p>
+<p>4.   <strong>Computer Name</strong> (a.k.a. Netbios Name) is<span style="text-decoration: underline;"><span style="color: #e03e2d; text-decoration: underline;"><strong> 15 characters</strong> or less</span></span>,<strong> unique</strong> and <em><span style="text-decoration: underline;"><span style="color: #e03e2d;"><strong>contain no spaces</strong></span></span></em></p>
+<p>5.   Type of server - PDC, BDC, or member (stand-alnoe) server.</p>
+<p class="msg msg--warning">Changing from PDC to member server requires reinstall</p>
+<p>6.   Password for Administrator account</p>
+<p>7.   Request creation of non-bootable<strong> Emergency Repair Disk</strong> to save the machine-specific Registry (files in the Repair folder). Internally. NT compares setup.txt files. (Just in case, Modern Tools are better mind you)</p>
+<p>8.   <i>If custom setup was selected earlier:</i> Optional components</p>
+<p>2.   ) Installing Windows NT networking</p>
+<p>1.   "<span style="text-decoration: underline;"><strong>Wired to the network</strong></span>" rather than "Remote access to the network" (RAS and Dial-up networking)</p>
+<p>2.   <strong>Leave unchecked to not install IIS v3 </strong>(wait to install with downloaded IIS's lastest supported setup file).</p>
+<p>3.   Network interface care installation (Select from list,<a href="http://www.wilsonmar.com/1datacom.htm#NICMfg"> Have Disk</a>, etc.)</p>
+<p>4.   <a href="http://www.wilsonmar.com/1isotp.htm#NetworkLayer">Networking Protocols:</a></p>
+<ul>
+<li><strong>TCP/IP</strong></li>
+<li><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">NetBEUI</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> for Windows for Workgroups, Windows 95, LAN Manager compatibility</span></li>
+</ul>
+<p>Optionally (NO)</p>
+<ul>
+<li>NWLink</li>
+<li>AppleTalk</li>
+<li>DLC (Data Link Control) for HP JetDirect printers and IBM SNA mainframes No file and print connections</li>
+<li>RIP and OSPF</li>
+</ul>
+<p>5.   No to DHCP Server (Dynamic Host Configuration Protocol) to automatically obtain an IP address.</p>
+<p><i>6.   </i>IP (Internet Protocol) addressing<i> (ICP = I see many Problems)</i></p>
+<p>3.   ) Finishing setup</p>
+<p>1.   Time zone, date, and time</p>
+<p class="msg msg--warning">2.   Exchange box configuration<br>Can't configure video drivers during setup.<br>Immediately after setup:<br> </p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    Uncheck "Show this welcome screen next time you start Windows NT" and close the help screen.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    Boot up again using [VGA mode] as Administrator</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    Install drivers for video, hard drives, etc.:</p>
+<p>1.   Install video driver (Display Type, Change, Have Disk, Browse to select folder, Open, close screen.</p>
+<p>2.   <strong>Verify hard disk drivers.</strong> In some cases, NT 4.0 Setup mistakes an EIDE controller for a generic ATAPI controller, and automatically loads the ATAPI.SYS driver--which doesn't know how to deal with the second drive. To correct the problem, disable ATAPI.SYS (using Control Panel/Devices) and load the appropriate EIDE driver.</p>
+<p>3.   Boot up again using [VGA mode]</p>
+<p>4.   select new video settings (256 colors, 75 Mhz, 800x600, Small Fonts, etc.)</p>
+<p>5.   Boot up again using default mode</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    The default location of the CD-ROM is stored in the Registry:<br>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion , which contains<strong> F:\i386</strong><br>in string SourcePath<br>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup , which contains<strong> F:\</strong><br>in string SourcePath</p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<h3><strong> Configure Desktop</strong></h3>
+<p>From<strong> Windows NT Explorer</strong></p>
+<p>1.   Set NT Explorer's View, Options to<strong> Show all files</strong> because Files that are not displayed are not copied.</p>
+<p>2.   Create New<strong> "Users" folder</strong> under the root</p>
+<p><strong>3.   </strong>Click to expand folder<strong> WINNT</strong></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Right-click on<strong> Explorer.exe</strong> and Create Shortcut</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Right-click on<strong> Notepad.exe</strong> to Create Shortcut to edit<strong> notes about the configuration.</strong></p>
+<p><strong>4.   </strong>Copy<strong> Notepad.exe</strong> in C:\Winnt\Profiles\Default Users\<strong> SendTo</strong></p>
+<p>5.   Unselect "Read Only" attribute for<strong> boot.ini</strong> file.</p>
+<p>6.   Winnt\System32 folder:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    drwtsn32.exe</p>
+<p><strong>7.   </strong>Go to C:\Winnt\Profiles\All Users\Start Menu\Programs\<strong> Administrative Tools (Common)</strong></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Minimize other windows to expose an area of the desktop around the NT Explorer screen.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Ctrl-right-click each of the following to<strong> create Shortcut</strong></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    <strong>windisk.exe</strong> Disk Administrator file</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    <strong>usrmgr.exe</strong> User Manager for Domains</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    <strong>srvmgr.exe</strong> Server Manager</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    <strong>perfmon.exe </strong>Performance Monitor</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    <strong>winmsd.exe</strong> Windows NT Diagnostics</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    <strong>dhcpadmin.exe</strong> DHCP Administrator</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    <strong>eventvwr.exe</strong> Event Viewer</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    <i>Optional:</i> Create new shortcuts on the desktop by highlighting and Ctrl-dragging these files to the desktop:</p>
+<p>1.   <strong>Rdisk.EXE</strong> to backup the Registry to the Emergency Repair Disk.</p>
+<p>2.   <strong>POLEDIT.EXE</strong> (Policy Editor) in “Program Files \ORKTools \Tools \Policy \Editor”</p>
+<p>3.   <strong>regedt32.exe</strong> used to manipulate the Registry.</p>
+<p>4.   NT Backup or<i> better</i> 3rd Party backup software</p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<h3><strong> Configure Connections</strong></h3>
+<p>1.   <i>If desired for security, Macintosh access, etc.:</i> Convert FAT to NTFS:<br>Run command<strong> CONVERT</strong><strong><i> drive:</i></strong><strong> /fs:ntfs</strong> (NTFS and FAT partitions can co-exist on the same drive)</p>
+<p>2.   Execute<strong> Disk Administrator</strong> (from the NT Administrative Tools) to create a 32-bit<i> signature</i> in the Master Boot Record recognized by the NT fault tolerant driver (Ftdisk.sys).</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Select Options, Colors and Patterns, select Primary Partition, and set color to a lighter color so you could see the asterisk (*) which highlights the<strong> boot drive</strong>.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    <i>To make NTFS partition larger than 4G,</i><strong> extend</strong> the NTFS partition.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911673.png" data-is-external-image="true"  border="0">    RAID 0 (Redundant Array of up to 15 Inexpensive Disks with equal amounts of space accessed in 64K blocks with no fault tolerance)? Use NT<strong> Volume sets</strong> to sequentially use up to 32 unpartitioned areas combined from 1 or more disks (starting with a single drive to allow for future expansion). Failure in any part of a volume set crashes the whole set.</p>
+<p><em>Noting the speed of current HDD/SSD's, ONLY the "lastest/last" SCSI PCI controllers (perhaps SATA1.5)  with NT4 drivers, could benefit from RAID 0.</em></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    RAID 1<strong> mirroring</strong> two drives<i> The most dependable.<br></i><em>Noting the speed of current HDD/SSD's, this is mostly a "safety" option</em><br>(RAID 2-3 are not supported on NT) Use to store system data.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911673.png" data-is-external-image="true"  border="0">    RAID 5 disk<strong> striping</strong> with parity. Use<strong> Striped Sets</strong> to<strong> spread use</strong> of unformatted free space of the same size on 2 to 32 disks. Improves performance. Cannot be used to store system data.</p>
+<p><strong>3.   </strong>Create a<strong> Fault Tolerant boot diskette.</strong></p>
+<p>4.   <i>Important:</i> Create an<strong> NT boot diskettes</strong> by copying files:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    ntldr,</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    boot.ini,</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    ntdetect.com,</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911673.png" data-is-external-image="true"  border="0">    (if dual-booting) bootsect.dos.<br> <br><i>Put this unique diskette in a plastic envelope and attach/tape it to the computer case.</i></p>
+<p>5.   Click on<strong> boot.ini</strong> to add option to boot from secondary drive (if file has already been made read/write)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Add "IIS" and/or other<a href="http://www.wilsonmar.com/1wntins.htm#MemberServers"><strong> member server services</strong></a> to boot-up entry.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Check Multi/SCSI</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    If using<strong> Mirror</strong> drives for redundancy:</p>
+<p>6.   Execute<strong> Network</strong> from the Control Panel: or right-click on the desktop's Network Neighborhood, select Properties, click Change button,</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Change a server's Identification<strong> domain name.</strong></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Specify networking Protocol and specify Server, Gateway, and DNS addresses.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Command Prompt<strong> hostname</strong> for your computer's<strong> NetBIOS</strong> computer name.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911673.png" data-is-external-image="true"  border="0">    Find the PDC hostname from another local computer with command<strong> Run \\</strong><strong><i>&lt;hostname&gt;</i></strong> Can't see new hosts immediately from Network Neighborhood because Master Browser is not updated frequently.</p>
+<p class="msg msg--highlight "><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911675.png" data-is-external-image="true"  border="0">    Command Prompt<strong> IPCONFIG /ALL</strong> for IP address and Ethernet adapter info. and 48-bit MAC address<strong> Unique Identifier</strong> burned in the EPROM.<br> <br>Note max. 5 IP addresses per NIC.<br>Also see<a href="http://www.wilsonmar.com/1tcpaddr.htm"> TCP/IP Addressing and Subnet Masking</a></p>
+<p>7.   Communication with remote servers:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    To set server as a WINS Proxy (to listen for WINS requests, resolve from cache, or forward to a WINS server): Set HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Netbt\Parameters key RKNG, EnableProxy to 1.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Command Prompt (Packet InterNet Groper)<strong> PING 127.0.0.1</strong> loopback IP address to verify connections - TTL (Time To Live) not timed out.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Command Prompt PING your<strong> gateway address</strong> to make sure it's up.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Command Prompt<strong> TRACERT</strong> (Trace RouTe) of hops toward a remote domain name.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Command Prompt<strong> ROUTE PRINT</strong> (or netstat -r) for Active Routes: Network Address, Netmask, Gateway Address, Interface, Metric</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911673.png" data-is-external-image="true"  border="0">    Command Prompt<strong> nbtstat</strong> to display protocol statistics and current TCP/IP network connections ESTABLISHED. Use cursor, not Tabs to skip around an IP address.</p>
+<p>8.   Receive TCP/IP from DHCP within IP scope and NetBIOS Scope )</p>
+<p>9.   WINS Server address or WINS Replication partnerships (Push &amp; Pull)</p>
+<p>10. DNS primary server connection to WINS server for NetBIOS resolution.</p>
+<p>11. DNS secondary server with a<strong> zone transfer</strong> from the primary DNS server on the same zone, different subnet.<br> </p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<h3><strong> Apply Service &amp; Option Packs</strong></h3>
+<p><i>Once you could get on the Internet (and if you don't have the files on CD or Zip disk, Etc.):</i></p>
+<p>Download from Microsoft's web site and install in the order below:</p>
+<p>1.   <span style="text-decoration: underline;"><em><span style="color: #e03e2d; text-decoration: underline;">Cumulative</span><a href="http://backoffice.microsoft.com/downtrial/moreinfo/nt4sp3.asp"> Windows NT Service Pack 3</a> (18 MB) has:</em></span></p>
+<ul>
+<li>Latest Supported: IIS</li>
+<li><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Active Server Pages 1.0b for server-side Web applications includes native support for Microsoft Visual Basic, Scripting Edition (VBScript) and JScript.</span></li>
+<li>Index Server 1.1 to quickly search and locate HTML, Microsoft Office, or text documents information on Internet or Internet sites.</li>
+<li>Latest Supported, NetShow: for live and on-demand audio and video content multimedia communications and information distribution</li>
+<li>Office XP</li>
+<li><strong><span style="color: #e03e2d;">IF NEEDED: Web Server Tools</span></strong>, to create reports from your Web Server log files and includes preformatted Web log reports. HTML publishing capabilities instantly turn reports into presentation-quality, information-rich documents for the Internet and intranet.</li>
+</ul>
+<p>2.   Service Pack 6a, Final for NT 4.0. Installs all other services packs also (cumulative).</p>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">3. NT 4.0 USB Patch</span></p>
+<p>4.   Internet Explorer 6.with Service Pack 1 upgrade which includes:</p>
+<ul>
+<li>The Standard edition includes the Outlook Express email program.</li>
+<li>The Full edition contains NetMeeting, NetShow, FrontPage Express (formerly FrontPad), Microsoft Web Publishing Wizard, and Microsoft Chat 2.0</li>
+<li>The Microsoft Java Virtual Machine is in IE6 SP1.</li>
+</ul>
+<p>5.   Once IE6 is installed, you can look at the list of IE 6 add-ons (Real Audio, NetShow, Acrobat Reader, etc.)</p>
+<p>6.   <a href="http://www.microsoft.com/NTServer/Basics/WhatNew.asp?site=nts&amp;custarea=bus&amp;OpenMenu=ProdBasic&amp;HighlightedItem=What's+New">Windows NT 4.0 Option Pack</a> (DOWNLOAD.EXE retrieves 85MB into folder PWSSetup) has:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Internet Information Server - IIS LATEST</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Pesonal Web Server</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    FrontPage (or other) server extensions.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Internet Connection Services for Microsoft RAS</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Transaction Server 2.0</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Message Queue Server 1.0</p>
+<p>7.   Install server applications software:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911675.png" data-is-external-image="true"  border="0">    <a href="http://www.microsoft.com/ntserver/tools/default.htm">Internet Resources for Windows NT</a></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Anti-virus (very few options)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Install<a href="http://winweb.winmag.com/library/1998/0301/featu103.htm"> 10 Must-Have Utilities for NT</a>, such as<a href="http://www.ghost.com/"> Ghost Walker</a> which changes the NT SID<i> Security ID</i> on copied drives.</p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<p><strong> Configure Users</strong></p>
+<p><strong>1.   </strong>Use POLEDIT to specify default/All User<strong> Audit Policies</strong></p>
+<p>2.   Execute<strong> User Manager for Domains</strong> program,</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Select "Policies", select "User Rights", scroll down list to select "Log on Locally", Add Everyone. Reboot.</p>
+<p>3.   to access services on other domains:</p>
+<p><strong>1.   </strong>Define cross-domain<strong> trusts</strong></p>
+<p>2.   Create a global group</p>
+<p>3.   Assign local users to a global group</p>
+<p>4.   Assign local group to local domain</p>
+<p>5.   Test access</p>
+<p>4.   Execute the<strong> Server Manager</strong> program</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    <strong>Add Users</strong> by using "Add Domain" and input<strong> Workstation names.</strong></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Command Prompt<strong> PING</strong> your IP address to check for<strong> duplicate address use</strong> (if address returned is 0.0.0.0).</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Check Network Browser</p>
+<p>5.   Execute NT Explorer to specify<strong> Permissions</strong> to folders and files in NTFS partitions.</p>
+<p>6.   Use NT Explorer to configure Properties of legacy 16-bit<strong> DOS program PIF files </strong>. Note: DOS programs running inside the same 4MB NTVDM.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Use C:\Winnt\System32\sysedit.exe to edit AUTOEXEC.NT and CONFIG.NT?</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    In a Common Prompt session, Press F7 for history of DOS commands.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    IPC's &amp; RPC's ?</p>
+<p><strong>7.   </strong>Execute NT Explorer to mark specific<strong> (archive)</strong> folders and files in NTFS partitions for<strong> compression</strong></p>
+<p>8.   Execute "Network Client Administrator" to</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    "Make Network Installation Startup Disk" to create boot-up diskettets used to create clients.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    "Copy Client-based Network Admnistration Tools" pointers to a diskette read by a client machine used by Administrators.</p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<p><strong> Install Member Servers</strong></p>
+<p>which don't validate signons</p>
+<p><strong>1.   </strong>Switch from PDC or BDC requires<strong> reinstall.</strong></p>
+<p>2.   From Double-click<strong> Network</strong> icon&gt; Properties or Start&gt; Settings&gt; Control Panel&gt; Network&gt;<strong> Services </strong>:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Network Services DHCP Server? (requires reboot)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    <strong>DNS Server</strong> (Domain Name System) using a<strong> static</strong> database to resolve Internet names to IP addresses. for FTP to Unix servers which doesn't have WINS.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911676.png" data-is-external-image="true"  border="0">    <strong>WINS Server</strong> (Windows Internet Name Service) using a<strong> dynamic</strong> database to resolve Netbios names to IP addresses.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    RAS Server</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    SNA</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Exchange</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Proxy</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    SQL</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Transaction</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    SMS</p>
+<p>3.   Join the member server to its domain: Use Network icon, Identification tab, Change button.</p>
+<p>4.   Click Close and restart.</p>
+<p> </p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<p><strong> Baseline Performance (<span style="color: #e03e2d;">I am looking for more "MODERN TOOLS" for these tasks, I dont use NT4.0 alot anymore</span>)</strong></p>
+<p>1.   <a href="http://www.winmag.com/scripts/download.pl/wintune/wintn97n_616.zip">Download WinTune97 for WinNT</a> (1.5MB) or<a href="http://winweb.winmag.com/WinTune98/"> run WinTune98 using MS Internet Explorer 4</a> to analyze CPU and Direct3D video performance.</p>
+<p>2.   Test<strong> File</strong> handling,</p>
+<p>3.   Test backup and restore:</p>
+<p><strong>1.   </strong>Test full system<strong> archive</strong></p>
+<p>2.   Set<strong> archive bit off</strong> on all files.</p>
+<p>3.   Reboot</p>
+<p>4.   Execute and run programs (identified in the<strong> Acceptance Test Script</strong>?) to make sure they work.</p>
+<p><strong>5.   </strong>Make a test<strong> incremental backup</strong></p>
+<p>6.   <strong>Test restore</strong> options:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    Restore data from tape.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911674.png" data-is-external-image="true"  border="0">    Recover from mirrored drive:</p>
+<p>1.   Execute Disk Administrator and<strong> Regenerate</strong> fault tolerance.</p>
+<p>2.   Recreate the mirror.</p>
+<p>4.   Test<strong> Print</strong> capability.</p>
+<p>5.   Test<strong> Applications</strong> functionality (reports).</p>
+<p>6.   Perl scripts in cgi-bin<br> </p>
+<p><strong>7.   </strong>Make a<strong> post-installation archive</strong> stored<strong> off-site</strong></p>
+<p>8.   Turn off monitor and ensure restricted<strong> physical access</strong> (the door locks closed).</p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<p><strong> Workstation Setup</strong></p>
+<p><strong>1.   </strong>Execute<strong> Windows NT Explorer</strong></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    <strong>create "Users" directory</strong></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    View Options Show all files</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Copy shortcuts to Notepad or other programs into C:\Winnt\Profiles\Default Users\<strong> SendTo</strong></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Double click on<strong> boot.ini</strong> to set the default partition [boot loader] to boot-up.</p>
+<p>2.   Create on the desktop a shortcut to<strong> Rdisk</strong> to backup the Registry to the Emergency Repair Disk.</p>
+<p>3.   Set NTFS<strong> compression</strong> (using COMPACT.EXE or NT Explorer).</p>
+<p>4.   Select C: as the<strong> boot-up</strong> (system) disk.</p>
+<p>5.   Software Fault Tolerance?</p>
+<p>6.   Install Microsoft Office, then the Office Service Pack. The<strong> Windows 95</strong> version of Microsoft Office runs today on both NT 3.51 and NT 4.0.</p>
+</td>
+<td valign="middle">
+<p><br> <br> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<td valign="middle">
+<p><strong> Monitoring &amp; Optimization</strong></p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    Command Prompt<strong> netstat -e</strong> to display TCP/IP network error statistics on current connections ESTABLISHED.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    Review Audit Logs.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Application, System, Security</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    Run command<strong> DISKPERF -Y</strong> to enable Disk Counters. (-N to disable)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    NDIS 4.0 to capture data sent thru network cards (rather than all traffic promiscuously)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    Network Monitor uses SNMP communities of trap servers and trap destinations. Set Capture filters and Display Filters by source/destination address, protocol.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    Performance Monitor</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    Network&gt; Services&gt; Server&gt; Properties:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Minimize Memory Used for small number (under 10) users</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Balance (for 10-64 users)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    (Default) Maximize Throughput for File Sharing</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Maximize Throughput for Network Applications (SQL Server)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    Ctrl-Alt-Del for (currently running) Task Manager<br>One Process (unique Process ID) for each 32 bit Application<br>Threads run within the context of a Process<br>Handles</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    Troubleshooting:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    separate memory spaces</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    incoming concurrent sessions (max. 10 on a workstation and the number of licenses on a server)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    Maintain NT Directory Services entries. This is unique to the<strong> domain model</strong> of NT networking, not to the Windows for Workgroups model.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911676.png" data-is-external-image="true"  border="0">    Demote the SAM on a PDC (Primary Domain Controller)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911676.png" data-is-external-image="true"  border="0">    Promote SAM on a BDC (Backup Domain Controller)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    To reinstall DNS server, delete DNS files by copying boot file from System32\DNS\Samples folder.</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Add resource records (A = Address of host, MX = Mail Exchange)</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    Use these reserved private addresses for testing:</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    1 Class A 10.0.0.0 - 10.255.255.255</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    16 Class B 172.16.0.0 - 172.31.255.255</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911672.png" data-is-external-image="true"  border="0">    255 Class C 192.168.0.0 - 192.168.255.255</p>
+<p><img loading="lazy" src="file:///C:\Users\Aazard\AppData\Local\Temp\AtlHTMLClip\clip_files\symbol53911677.png" data-is-external-image="true"  border="0">    In Network TCP/IP DNS search order, put local server address first.</p>
+<p><a href="http://www.nttoolbox.com/Links2.htm">NT Toolbox</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The 8mb Modern Office Suite</title>
+        <author>
+            <name>aazard</name>
+        </author>
+        <link href="https://aazard.github.io/the-8mb-modern-office-suite/"/>
+        <id>https://aazard.github.io/the-8mb-modern-office-suite/</id>
+
+        <updated>2021-01-13T11:29:38-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p>The 8mb modern office suite is made of:</p>
+<ul>
+<li>Word Processor (docx) - Atlantis Lite</li>
+<li>Spreadsheets (xlsx) - Spread32</li>
+<li>Presentations )open pptx, save as other) - NCH Presenter</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The ULTIMATE AIO WinPE: 3.11-98SE-XP-10</title>
+        <author>
+            <name>aazard</name>
+        </author>
+        <link href="https://aazard.github.io/the-ultimate-aio-winpe-311-98se-xp-10/"/>
+        <id>https://aazard.github.io/the-ultimate-aio-winpe-311-98se-xp-10/</id>
+
+        <updated>2021-01-10T20:05:26-05:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p><img loading="lazy" src="http://www.betaarchive.co.uk/imageupload/1262933164.th.965738.jpg" data-is-external-image="true"  alt="Image"></p>
+<p><img loading="lazy" src="https://i.ytimg.com/vi/hXT-pVLxFco/hqdefault.jpg" data-is-external-image="true"  alt="Windows 98 &quot;Live&quot; Project - YouTube"></p>
+<p>Place holder</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Install WES 7 (Windows 7 Thin PC) From a USB Drive To A USB Drive</title>
         <author>
@@ -591,306 +1084,6 @@ exit
 <p>………………..</p>
 <p> </p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>aazard’s Personal Edited Versions of Tiny Application and Tools</title>
-        <author>
-            <name>aazard</name>
-        </author>
-        <link href="https://aazard.github.io/aazards-personal-edited-versions-of-tiny-application-and-tools/"/>
-        <id>https://aazard.github.io/aazards-personal-edited-versions-of-tiny-application-and-tools/</id>
-            <category term="aazards Articles"/>
-
-        <updated>2021-01-05T19:29:23-05:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://aazard.github.io/media/posts/5/Flashpath_and_MMC.jpg" alt="" />
-                <h2 class="align-center"><span style="color: #e67e23;"><strong><u>aazard’s Personal Edited Versions of Minimal Required Tools For Visual Modding of MOST PC Video Games </u></strong></span></h2>
-<p><span style="color: #f50505;">(UI Image/audio quality <strong><em><u>reduced</u></em></strong> to “600p/45ppi, 16 colours/OS2 gif/24bit alpha &amp; audio cassette quality” to save space, <strong>unneeded files deleted</strong>)</span></p>
-<p>I Keep them zipped, but the 100k zipper (v1.22, 71kb), that I use to "unzip/re-zip" them, <strong>Fits on 2x 2HD 1.44mb floppies formatted to 1680kb, or 1 IBM 2ED floppy formatted to 3360kb, when zipped</strong></p>
-<h3><strong>Notes</strong>:</h3>
-<p><strong><u>Limits:</u></strong> 8K (8192x8192 pixels) 3D &amp; image support, export to/from DDS BC1 to BC5, with “nm” normal map support, advanced plain text tags are manual unless Win32Pad is used)</p>
-<p><strong><u>NOT ZIPPED</u> = Ready to Run/Use</strong></p>
-<p><strong><u>Zipped Files</u> are, in this set, “on average, 15% smaller”. Meaning, about <u>1930kb/1.855mb</u>, unzipped sized, fits on 1680kb, when “zipped”</strong></p>
-<p><strong>DMF Formatted Floppy</strong> (Standard 2HD 1.44mb) Holds <strong><u>1680kb/1.64mb</u></strong></p>
-<p><strong>DMF Formatted Floppy</strong> (IBM 2ED 2.88mb) Holds <strong><u>3360kb/3.28mb</u></strong></p>
-<p><strong>4mb SD/USB Flash Drive</strong> FAT16 (or FAT32/NTFS) Formatted Holds <strong><u>3906kb/3.81mb</u></strong></p>
-<p><u>Apps are ALL UPX Re-Packaged, so “disk compression” is no additional savings…just slower.</u></p>
-<p>…</p>
-<h3><strong>Apps Needed To Create/Edit Up To 8K 3D, Normals &amp; Images, plus edit cfg/ini files</strong></h3>
-<p>MW-GFX ConvimX, image converter, DDS to BC5, includes viewer @ <span style="color: #f50505;">506kb<br></span>- <span style="color: #f50505;">1028kb</span> if you need ACE support &amp; help dialog, <br><strong><u>- check file tooltips in explorer to find/delete any unneeded files</u></strong></p>
-<p>Fotografix, "Pro" editing 7.8mb 8K images with a @ <span style="color: #f50505;">276kb</span> app...beautiful</p>
-<p>nJob, Normal Map tools @ <span style="color: #f50505;">1184kb</span></p>
-<p>MeshMagic – 3D editor @ <span style="color: #f50505;">347kb</span></p>
-<p>TheGun, Plain text editor @ <span style="color: #f50505;">6kb</span></p>
-<p><span style="color: #f50505;"><strong>Sub-Total</strong>: 2319kb <strong><u>NOT ZIPPED</u></strong></span></p>
-<p>…</p>
-<h3><span style="color: #e67e23;"><strong>You could stop here and do ALOT!</strong></span></h3>
-<p>…</p>
-<h3><strong>Nices</strong>:</h3>
-<p>AviTricks: Avi video/audio editor. Chroma key, mux wav/avi/bmp @ <span style="color: #f50505;">475kb</span></p>
-<p>Divendos Screen Capturer: Screen Shots in bmp/recording in avi @ <span style="color: #f50505;">139kb</span></p>
-<p>Streamosaur: Audio recording in wav/etc @ <span style="color: #f50505;">20kb</span></p>
-<p>Wave Edit: edit audio @ <span style="color: #f50505;">22kb</span></p>
-<p>Avi2wav: extract wav audio from avi video @ <span style="color: #f50505;">157kb</span></p>
-<p><strong>Sub-Total</strong>: <span style="color: #f50505;">813kb </span><strong><u>NOT ZIPPED</u></strong></p>
-<p>…</p>
-<p><span style="color: #f50505;"><strong>Needed + Nice’s = Total</strong>: 3132kb <strong><u>NOT ZIPPED</u></strong></span></p>
-<p>…</p>
-<h3><strong>Media Extras</strong>:</h3>
-<p>Naughter’, EZView, pure image viewing GOLD @ <span style="color: #f50505;">54kb</span></p>
-<p>Petr Lastovicka, of Tiny Player the  A/V media player that’s @ <span style="color: #f50505;">80kb</span></p>
-<p>Voyager XG:  an enhanced IE web browser @ <span style="color: #f50505;">89kb</span></p>
-<p><strong>Sub-Total</strong>: <span style="color: #f50505;">223kb </span><strong><u>NOT ZIPPED</u></strong></p>
-<p>…</p>
-<p><span style="color: #f50505;"><strong>Needed + Nice’s + Media Extras = Total</strong>: 3355kb <strong><u>NOT ZIPPED</u></strong></span></p>
-<p>….</p>
-<h3><strong>Packagers For Distribution</strong></h3>
-<p>100K Ziper, Tiny archiver, Zip &amp; Unzip files, has SFX support @ <span style="color: #f50505;">71kb</span></p>
-<p>Pablo Software Solutions Little Install Builder, Basic Setup Maker @ <span style="color: #f50505;">46kb</span></p>
-<p><strong>Sub-Total</strong>: <span style="color: #f50505;">117kb </span><strong><u>NOT ZIPPED</u></strong></p>
-<p>…</p>
-<h3><strong>Document and Website Makers</strong>:</h3>
-<p>Atlantis Nova - Doc app, add images, open doc (save rtf/txt) @ <span style="color: #f50505;">390kb</span></p>
-<p>Smart Free PDF, create rich PDF’s with pictures @ <span style="color: #f50505;">323kb</span></p>
-<p>WYSIWYG Web Builder v2.8 Freeware, @ <span style="color: #f50505;">354kb</span></p>
-<p><strong>Sub-total</strong>: <span style="color: #f50505;">977kb </span><strong><u>NOT ZIPPED</u></strong></p>
-<p>…</p>
-<h2><span style="color: #f50505;"><strong>BIG TOTAL</strong>: <strong>4448kb/4.34mb</strong> <strong><u>NOT ZIPPED</u></strong> <br>- Possible 674kb reduction = <strong><em>3774kb/3.68mb </em><u>NOT ZIPPED</u></strong></span></h2>
-<p> </p>
-<h2><span style="text-decoration: underline;"><span style="color: #e67e23; text-decoration: underline;"><strong>Optionals, not "needed" in base packs</strong>: But nice to have &amp; tiny</span></span></h2>
-<p> </p>
-<h3><strong>Office</strong>:</h3>
-<p>Atlantis lite, pdf/docx able word processor with spellcheck @ <span style="color: #f50505;">1768kb</span></p>
-<p>Spread32 (xls/cvs version) Spreadsheets @ <span style="color: #f50505;">172kb</span></p>
-<p>Spread32 (xlsx/cvs version) Spreadsheets @ <span style="color: #f50505;">942kb</span></p>
-<p>CSV Board, csv database maker @ <span style="color: #f50505;">72kb</span></p>
-<p>Free PDF to Word, @ <span style="color: #f50505;">313kb</span></p>
-<p>Cool PDF Reader (v1), @ <span style="color: #f50505;">586kb</span></p>
-<p>Pico Sticky Notes @ <span style="color: #f50505;">11kb</span></p>
-<p>TIA PDF Editor @ <span style="color: #f50505;">5881kb</span></p>
-<p>EVE Vector Diagrams &amp; Drawing @ <span style="color: #f50505;">74kb</span></p>
-<p>NCH Presenter, can open PPTX, @ <span style="color: #f50505;">969kb</span></p>
-<p>Softmaker Free Office Presenter 2010, saves as <span style="color: #000000;">PPTX</span> @ <span style="color: #f50505;">4702kb</span></p>
-<p>Pixie, color picker, @ <span style="color: #f50505;">10kb</span></p>
-<p>Portable Calendar 3, @ <span style="color: #f50505;">23kb</span></p>
-<p>Rename files, @ <span style="color: #f50505;">128kb</span></p>
-<p>SearchMyFiles, @ <span style="color: #f50505;">78kb</span></p>
-<p>Metalogic Finance Explorer @ <span style="color: #f50505;">353kb</span></p>
-<p>MemPad @ <span style="color: #f50505;">81kb</span></p>
-<p> </p>
-<h3><strong>Internet</strong>:</h3>
-<p>Selteco FTP Client @ <span style="color: #f50505;">94kb</span></p>
-<p>Mereo HTTP Server @ <span style="color: #f50505;">34kb</span></p>
-<p>MailPeek FULL email client, no SSL @ <span style="color: #f50505;">78kb</span></p>
-<p>PassPack: Secure Password Keeper @ <span style="color: #f50505;">14kb</span></p>
-<p>nPOPuk Full email client with SSL @ <span style="color: #f50505;">204kb</span></p>
-<p>Green Browser @ <span style="color: #f50505;">1019kb</span></p>
-<p><strong> </strong></p>
-<h3><strong>Safety</strong>:</h3>
-<p>DS Del, Secure file deletion @ <span style="color: #f50505;">8kb</span></p>
-<p>SureCrypt, Encrypt/Decrypt files @ <span style="color: #f50505;">10kb</span></p>
-<p>Kill Box: End process, unlock/delete files @ <span style="color: #f50505;">38kb</span></p>
-<p>TasKill, @ <span style="color: #f50505;">7kb</span></p>
-<p>SS-backup, @ <span style="color: #f50505;">68kb</span></p>
-<p>Netstalker firewall, @ <span style="color: #f50505;">463kb</span></p>
-<p>HiJackThis Dragokas fork @ <span style="color: #f50505;">1533kb</span></p>
-<p>Roadkills undelete, @ <span style="color: #f50505;">48kb</span></p>
-<p>EnCopy4 @ <span style="color: #f50505;">22kb</span></p>
-<p>Xpass, recover hidden passwords @ <span style="color: #f50505;">13kb</span></p>
-<p> </p>
-<h3><strong>System</strong>:</h3>
-<p>Antmem, memory manager, @ <span style="color: #f50505;">1kb</span></p>
-<p>Ulitmate CD/DVD Burner @ <span style="color: #f50505;">340kb</span></p>
-<p>Commander, Better File manager, @ <span style="color: #f50505;">102kb</span></p>
-<p>Folder Reports, disk space tool, shows folder sizes @ <span style="color: #f50505;">22kb</span></p>
-<p>PureRA, disk cleaner @ <span style="color: #f50505;">23kb</span></p>
-<p> </p>
-<h3><strong>Media</strong>:</h3>
-<p>Wav2mp3, wav 2 mp3/mp3 2 wav, @ <span style="color: #f50505;">83kb</span></p>
-<p>Stoik avi2wmv, avi 2 wmv/wmv 2 avi @ <span style="color: #f50505;">89kb</span></p>
-<p>AviScreen, Screen record tool with audio @ <span style="color: #f50505;">287kb<br>- <strong>Can remove Streamosaur if used</strong></span></p>
-<p>Send to convert, more image formats, no DDS, conversion @ <span style="color: #f50505;">209kb</span></p>
-<p>Flicflac, more audio formats conversion @ <span style="color: #f50505;">1061kb</span></p>
-<p>DP Video convert, more video formats conversion @ <span style="color: #f50505;">3972kb</span></p>
-<p>7z (v9.2) more archive formats, @ <span style="color: #f50505;">786kb</span></p>
-<p>…</p>
-<p> </p>
-<p>…</p>
-<h3><span style="color: #e67e23;"><strong>Smaller, or bigger, Options</strong>:</span></h3>
-<p>SGsoft’s SG WordPad, a RTF &amp; Plain text editor (saves as rtf/txt) @ <span style="color: #f50505;">17kb<br></span><u>- if it replaces “Atlantis Nova”, <strong>reducing 373kb of space used</strong></u></p>
-<p>PDF Producer: Plain Text PDF creation @ <span style="color: #f50505;">22kb<br></span>- <u>if it replaces “Smart Free PDF”, <strong>reducing 301kb of space used</strong></u></p>
-<p>Savage Edit: Slightly more feature full Plain text editor than “TheGun” @ <span style="color: #f50505;">14kb<br></span>- <u>if it replaces “TheGun”, adding 8kb in size difference</u></p>
-<p>Win32Pad - notepad replacement @ <span style="color: #f50505;">26kb<br></span>- <u>if it replaces “TheGun”, adding 20kb in size difference</u></p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Cluster Size in NT5 up (Windows 2000+) - Use Best Fit</title>
-        <author>
-            <name>aazard</name>
-        </author>
-        <link href="https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/"/>
-        <id>https://aazard.github.io/cluster-size-in-nt5-up-windows-2000-use-best-fit/</id>
-            <category term="aazards Articles"/>
-
-        <updated>2021-01-05T19:29:35-05:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://aazard.github.io/media/posts/4/Flashpath_and_MMC.jpg" alt="" />
-                <h2 class="align-center"><span style="text-decoration: underline;"><strong><span style="color: #e67e23; text-decoration: underline;">Cluster Size in NT5 up (Windows 2000+) - Use Best Fit</span></strong></span></h2>
-<h3>Note: <span style="color: #f50505;">Aim For "SMALLEST" Cluster Size</span></h3>
-<p><strong><span style="color: #e67e23;">This will make you "squeeze" the most data in, esp when files are very small</span></strong></p>
-<p class="msg msg--highlight "><em><strong>Microsoft's EFI FAT32 specification<sup id="cite_ref-efi_10-13" class="reference"><a href="https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system#cite_note-efi-10">[10]</a></sup> states that any FAT file system with less than 4085 clusters is FAT12, else any FAT file system with less than 65525 clusters is FAT16, and otherwise it is FAT32. </strong></em></p>
-<h3>FAT-16B - Cluster Size</h3>
-<table class="infobox">
-<tbody>
-<tr>
-<th>Upto_8MB</th>
-<td>128Bytes_<strong>Smallest_Possible</strong></td>
-</tr>
-<tr>
-<th>8MB-32mb</th>
-<td>512Bytes</td>
-</tr>
-</tbody>
-</table>
-<h3><strong>DMF 1024 Floppy is 512bytes<br></strong></h3>
-<h3><strong>DMF 2048 Floppy is 1kb</strong></h3>
-<h4><strong><span style="text-decoration: underline;">NTFS</span></strong> - Cluster Size in NT5 up (Windows 2000+)<br><span style="color: #f50505;">Not Ideal For USB FLASH rated 256mb or less<br></span><span style="color: #f50505;">Ideal For USB FLASH rated 512mb or more</span></h4>
-<table class="sbody-table table">
-<tbody>
-<tr class="sbody-tr">
-<td class="sbody-td">7MB-16TB</td>
-<td class="sbody-td">4KB_(@512MB+_NTFS_WINS)</td>
-</tr>
-<tr class="sbody-tr">
-<td class="sbody-td">16TB–32TB</td>
-<td class="sbody-td">8 KB</td>
-</tr>
-<tr class="sbody-tr">
-<td class="sbody-td">32TB–64TB</td>
-<td class="sbody-td">16 KB</td>
-</tr>
-<tr class="sbody-tr">
-<td class="sbody-td">64TB–128TB</td>
-<td class="sbody-td">32 KB</td>
-</tr>
-<tr class="sbody-tr">
-<td class="sbody-td">128TB–256TB</td>
-<td>64 KB</td>
-</tr>
-</tbody>
-</table>
-<h4><span style="text-decoration: underline;"><strong>FAT-32</strong></span> - Cluster Size in NT5 up (Windows 2000+)<br><span style="color: #f50505;">Not Ideal For USB FLASH rated 512mb or more<br></span><span style="color: #f50505;">Ideal For USB FLASH rated 256mb or less </span></h4>
-<table class="sbody-table table">
-<tbody>
-<tr class="sbody-tr">
-<td class="sbody-td">32MB–64MB</td>
-<td class="sbody-td">512 bytes</td>
-</tr>
-<tr class="sbody-tr">
-<td class="sbody-td">64MB–128MB</td>
-<td class="sbody-td">1 KB</td>
-</tr>
-<tr class="sbody-tr">
-<td class="sbody-td">128MB–256MB</td>
-<td class="sbody-td">2 KB</td>
-</tr>
-</tbody>
-</table>
-<h4>FAT-32 Cluster Size is 8KB, or More, @512MB and up</h4>
-<h4><strong><span style="text-decoration: underline;">exFAT</span></strong> - Cluster Size in NT5 up (Windows 2000+)</h4>
-<table class="sbody-table table">
-<tbody>
-<tr class="sbody-tr">
-<td class="sbody-td">32 GB–256 TB</td>
-<td class="sbody-td">128 KB</td>
-</tr>
-</tbody>
-</table>
-<p>...</p>
-<h3><span style="text-decoration: underline;"><strong>So </strong></span></h3>
-<p>DMF Floppy, cant be lower sector/cluster size than 1 KB <strong>Best Fit DMF 1024</strong></p>
-<p>8MB or Less, but not a floppy, <strong>Best Fit FAT-16B</strong></p>
-<p>Over 8MB &amp; Under 32MB, <strong>Best Fit FAT16B</strong> (forced manually or Windows will use FAT-32)</p>
-<p>Over 32MB &amp; Under 256MB, <strong>Best Fit FAT32</strong></p>
-<p>Over 256MB &amp; Under 128GB, <strong>Best Fit NTFS</strong></p>
-<p>Over 128GB To 256GB (Max volume size support in Windows 10), <strong>Best Fit exFAT</strong></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>About 1680kb Floppies OR DMF - Distribution Media Format</title>
-        <author>
-            <name>aazard</name>
-        </author>
-        <link href="https://aazard.github.io/about-1680kb-floppies-or-dmf-distribution-media-format/"/>
-        <id>https://aazard.github.io/about-1680kb-floppies-or-dmf-distribution-media-format/</id>
-            <category term="aazards Articles"/>
-
-        <updated>2021-01-05T19:29:46-05:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://aazard.github.io/media/posts/3/Flashpath_and_MMC.jpg" alt="" />
-                <h2><span style="text-decoration: underline;"><strong><span style="color: #e67e23; text-decoration: underline;">About 1680kb Floppies OR DMF - Distribution Media Format</span></strong></span></h2>
-<h2><strong><span style="color: #e67e23;"><span style="color: #f50505;">I Suggest DFM 1024 (DMF-1) For Small Cluster Sizes</span></span></strong></h2>
-<p><span style="text-decoration: underline;"><strong>I will add more details</strong>, for now I'm just completing the suites/packs file lists and application descriptions, for all my releases.</span></p>
-<h2>Alkonost MaxFormat, free, can format floppies to DMF 1024 &amp; DMF 2048</h2>
-<h2><span style="text-decoration: underline;"><strong><span style="color: #e67e23; text-decoration: underline;">About DMF</span></strong></span></h2>
-<p><strong><i>DMF and 1.68 MB</i></strong> formats are the same physical format of 80 tracks and 21 sectors per track. The 1.68 MB format has 224 entries in the root directory, and a cluster size is 512 bytes. DMF format has <i>only 16 entries</i> in the root directory (you need create a subdirectory to copy more than 16 files), and the cluster size is 1024 (<strong>DMF 1024</strong>) or 2048 bytes (<strong>DMF 2048</strong>). You can check the cluster size in the Image Information...</p>
-<p>Microsoft uses DMF 2048 for the floppy version of some of their newer software. Windows 95/98/Me and Windows NT/2000/XP/2003 read and write directly in DMF format. You will need FDREAD for this format under MSDOS or Windows 3.1.</p>
-<p><span style="color: #f50505;"><em><strong>1.72 MB format uses 82 tracks and is </strong></em><strong><span style="text-decoration: underline;">not compatible</span></strong><em><strong> with Windows NT/2000/XP/2003. </strong></em></span></p>
-<p>1.68 MB and DMF are the same physical format, and are compatible with Windows NT/2000/XP/2003. <strong>I highly suggest you don't use 1.72 MB.</strong></p>
-<p>The <span style="text-decoration: underline;"><strong>DMF 2048</strong></span> format is often used for distribution floppies under Windows 95/98 and Windows NT.</p>
-<p>The Below Article From Wikipedia Is Referring To DMF 1024 &amp; DMF 2048</p>
-<h1 id="firstHeading" class="firstHeading" lang="en"><span style="text-decoration: underline;"><strong><span style="color: #e67e23; text-decoration: underline;">Distribution Media Format</span></strong></span></h1>
-<div id="bodyContent" class="mw-body-content">
-<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
-<div> </div>
-<div id="jump-to-nav"><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">Distribution Media Format</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> (DMF) is a </span><a href="https://en.wikipedia.org/wiki/File_format" title="File format" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">format</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> for </span><a href="https://en.wikipedia.org/wiki/Floppy_disk" title="Floppy disk" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">floppy disks</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> that </span><a href="https://en.wikipedia.org/wiki/Microsoft" title="Microsoft" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Microsoft</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> used to distribute </span><a href="https://en.wikipedia.org/wiki/Software" title="Software" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">software</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">.</span><sup id="cite_ref-1" class="reference" style="color: var(--text-editor-body-color); font-family: var(--font-base); font-weight: var(--font-weight-normal);"><a href="https://en.wikipedia.org/wiki/Distribution_Media_Format#cite_note-1">[1]</a></sup><sup id="cite_ref-2" class="reference" style="color: var(--text-editor-body-color); font-family: var(--font-base); font-weight: var(--font-weight-normal);"><a href="https://en.wikipedia.org/wiki/Distribution_Media_Format#cite_note-2">[2]</a></sup><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> <span style="text-decoration: underline;"><strong><span style="color: #f50505; text-decoration: underline;">It allowed the disk to contain 1680 kB of data on a 3½-inch disk, instead of the standard 1440 kB</span></strong></span>. As a side effect, utilities had to specially support the format in order to read and write the disks, which made </span><a href="https://en.wikipedia.org/wiki/Copyright_infringement" title="Copyright infringement" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">copying</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> of products distributed on this </span><a href="https://en.wikipedia.org/wiki/Data_storage" title="Data storage" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">medium</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> more difficult. An Apple Macintosh computer running </span><a href="https://en.wikipedia.org/wiki/Disk_Copy" title="Disk Copy" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Disk Copy</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> 6.3.3 on the Mac OS 7.6 or later operating system can copy and make DMF disks.</span><sup id="cite_ref-3" class="reference" style="color: var(--text-editor-body-color); font-family: var(--font-base); font-weight: var(--font-weight-normal);"><a href="https://en.wikipedia.org/wiki/Distribution_Media_Format#cite_note-3">[3]</a></sup><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> The first Microsoft software product that uses DMF for distribution were the "c" revisions of Office 4.x. It also was the first software product to use </span><a href="https://en.wikipedia.org/wiki/Cabinet_(file_format)" title="Cabinet (file format)" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">CAB files</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">, then called "Diamond".</span></div>
-<div id="mw-content-text" class="mw-content-ltr" dir="ltr" lang="en">
-<div class="mw-parser-output">
-<p>Comparison of DMF and standard 1440 kB 3½-inch diskettes:</p>
-<table class="wikitable">
-<tbody>
-<tr>
-<th> </th>
-<th align="center">1440 kB</th>
-<th align="center">DMF</th>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Cylinder-head-sector" title="Cylinder-head-sector">Tracks</a></td>
-<td>80</td>
-<td>80</td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Disk_sector" title="Disk sector">Sectors</a> per track</td>
-<td>18</td>
-<td>21</td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Data_cluster" title="Data cluster">Cluster</a> size</td>
-<td>512 <a href="https://en.wikipedia.org/wiki/Byte" title="Byte">bytes</a></td>
-<td>1024 or 2048 bytes</td>
-</tr>
-<tr>
-<td>Root directory entries</td>
-<td>224</td>
-<td>16</td>
-</tr>
-</tbody>
-</table>
-<p>DMF in the form of a <strong><span style="color: #f50505;">1680 kB</span></strong> <a href="https://en.wikipedia.org/wiki/VHD_(file_format)#Virtual_Floppy_Disk_.28VFD.29" title="VHD (file format)">Virtual Floppy Disk</a> (VFD) image and <a href="https://en.wikipedia.org/wiki/IBM_Extended_Density_Format" title="IBM Extended Density Format">IBM Extended Density Format</a> (XDF) images are supported by <a href="https://en.wikipedia.org/wiki/Windows_Virtual_PC" title="Windows Virtual PC">Windows Virtual PC</a>.<sup id="cite_ref-4" class="reference"><a href="https://en.wikipedia.org/wiki/Distribution_Media_Format#cite_note-4">[4]</a></sup></p>
-</div>
-</div>
-</div>
             ]]>
         </content>
     </entry>
